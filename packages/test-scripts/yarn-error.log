@@ -1,0 +1,46 @@
+Arguments: 
+  /home/hzub/.nvs/node/12.17.0/x64/bin/node /home/hzub/.nvs/default/bin/yarn
+
+PATH: 
+  /home/hzub/.nvs/default/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin:/mnt/c/Program Files/Common Files/Intel/WirelessCommon:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/SH-37DJFT2/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SH-37DJFT2/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wowschool-www-scripts: Not found
+      at Request.params.callback [as _callback] (/home/hzub/.nvs/node/12.17.0/x64/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/home/hzub/.nvs/node/12.17.0/x64/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/home/hzub/.nvs/node/12.17.0/x64/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/home/hzub/.nvs/node/12.17.0/x64/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1221:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "test-scripts",
+    "version": "0.1.0",
+    "license": "MIT",
+    "dependencies": {
+      "wowschool-www-scripts": "0.1.0"
+    },
+    "scripts": {
+      "start": "wowschool-www-scripts start"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
