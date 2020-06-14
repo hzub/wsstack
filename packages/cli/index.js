@@ -24,15 +24,17 @@ const stripPolishLetters = (str) => {
 };
 
 const logError = (err) => {
-  console.log(chalk.whiteBright("[BŁĄD]") + " " + chalk.redBright(err));
+  console.log(
+    chalk.whiteBright("[WowDroid - Błąd]") + " " + chalk.redBright(err)
+  );
 };
 
 const logMessage = (msg) => {
-  console.log(chalk.greenBright(msg));
+  console.log(chalk.whiteBright("[WowDroid]") + " " + chalk.greenBright(msg));
 };
 
 const logInfo = (msg) => {
-  console.log(chalk.blueBright(msg));
+  console.log(chalk.whiteBright("[WowDroid]") + " " + chalk.blueBright(msg));
 };
 
 const run = () => {
@@ -83,9 +85,16 @@ const run = () => {
     shell: true,
   });
 
-  const spinner = ora(
-    chalk.greenBright(`Tworzę aplikację "${chalk.whiteBright(desiredName)}"...`)
-  ).start();
+  const spinner = ora({
+    stream: process.stdout,
+    prefixText: chalk.greenBright(
+      `${chalk.whiteBright("[WowDroid]")} Tworzę aplikację "${chalk.whiteBright(
+        desiredName
+      )}"...`
+    ),
+  });
+
+  spinner.start();
 
   const stdErr = [];
   npmExec.stderr.on("data", (data) => {
@@ -94,8 +103,9 @@ const run = () => {
 
   npmExec.on("close", (code) => {
     if (code === 0) {
+      spinner.clear();
       spinner.stop();
-      logInfo(`\nAplikacja "${chalk.whiteBright(desiredName)}" stworzona!\n`);
+      logInfo(`Aplikacja "${chalk.whiteBright(desiredName)}" stworzona!`);
       logMessage(
         `- Teraz możesz przejść do katalogu aplikacji ("${chalk.yellowBright(
           `cd ${desiredName}`
@@ -107,6 +117,7 @@ const run = () => {
         )}"`
       );
     } else {
+      spinner.clear();
       spinner.stop();
       logError("Coś poszło nie tak. Błąd:");
       console.log(chalk.white(stdErr.join("")));

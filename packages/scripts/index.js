@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const args = require("yargs").argv._;
 const webpack = require("webpack");
 const path = require("path");
@@ -10,6 +11,8 @@ const DomParser = require("dom-parser");
 const glob = require("glob");
 const fse = require("fs-extra");
 const archiver = require("archiver");
+const ErrorOverlayPlugin = require("error-overlay-webpack-plugin");
+const chalk = require("chalk");
 
 const workingDir = path.resolve(process.cwd());
 const inputDir = path.resolve(workingDir, "./src");
@@ -17,13 +20,22 @@ const outputDir = path.resolve(workingDir, "./out");
 const outputZipFile = path.resolve(workingDir, "./out.zip");
 const inputHtmlPath = path.resolve(workingDir, "./src/index.html");
 
+const logError = (err) => {
+  console.log(
+    chalk.whiteBright("[WowDroid - Błąd]") + " " + chalk.redBright(err)
+  );
+};
+
+const logMessage = (msg) => {
+  console.log(chalk.whiteBright("[WowDroid]") + " " + chalk.greenBright(msg));
+};
+
 const parseHtml = (filePath) =>
   new Promise((resolve, reject) => {
     try {
       const fileContents = fs.readFileSync(filePath, "utf-8");
       var parser = new DomParser();
       var dom = parser.parseFromString(fileContents);
-      // dom.getElementsByTagName("script")[0].attributes
       resolve(dom);
     } catch (e) {
       reject(e);
@@ -39,14 +51,10 @@ const webpackConfig = (sources, mode) => ({
   output: {
     path: outputDir,
     filename: "[name]",
+    publicPath: "/",
   },
   mode,
-  plugins: [
-    // new HtmlWebpackPlugin({
-    //   template: "src/index.html",
-    //   inject: false,
-    // }),
-  ],
+  plugins: [new ErrorOverlayPlugin()],
   module: {
     rules: [
       {
@@ -55,6 +63,7 @@ const webpackConfig = (sources, mode) => ({
         use: {
           loader: require.resolve("babel-loader"),
           options: {
+            highlightCode: mode === "production",
             presets: [require.resolve("@babel/preset-env")],
             plugins: [
               require.resolve("@babel/plugin-proposal-object-rest-spread"),
@@ -90,7 +99,7 @@ const zipDirectory = () => {
 
 const run = async () => {
   if (args[0] === "start") {
-    console.log("Uruchamiam aplikację...");
+    logMessage("Uruchamiam aplikację...");
     const sources = getScriptSrcsList(await parseHtml(inputHtmlPath));
 
     const missingFiles = sources.filter(
@@ -98,7 +107,7 @@ const run = async () => {
     );
     if (missingFiles.length) {
       missingFiles.forEach((mf) => {
-        console.log(`[Błąd] Brak pliku skryptu "${mf}"!`);
+        logError(`Brak pliku skryptu "${mf}"!`);
       });
       return;
     }
@@ -111,27 +120,28 @@ const run = async () => {
         open: true,
         clientLogLevel: "silent",
         quiet: true,
+        publicPath: "/",
       }
     );
     server.listen(3000, () => {});
   }
 
   if (args[0] === "build") {
-    console.log("Buduję aplikację...");
+    logMessage("Buduję aplikację...");
     const sources = getScriptSrcsList(await parseHtml(inputHtmlPath));
     const missingFiles = sources.filter(
       (s) => !fs.existsSync(`${workingDir}/src/${s}`)
     );
     if (missingFiles.length) {
       missingFiles.forEach((mf) => {
-        console.log(`[Błąd] Brak pliku skryptu "${mf}"!`);
+        logError(`Brak pliku skryptu "${mf}"!`);
       });
       return;
     }
 
     fse.removeSync(outputDir);
     webpack(webpackConfig(sources, "production")).run((e, stats) => {
-      if (!e) {
+      if (!stats.compilation.errors.length) {
         glob(`${inputDir}/**/*`, (er, files) => {
           files.forEach((f) => {
             if (path.extname(f) === ".js") {
@@ -143,8 +153,12 @@ const run = async () => {
             });
           });
           zipDirectory();
-          console.log("Zbudowano!");
+          logMessage("Zbudowano!");
         });
+      } else {
+        logError("Wystąpiły błędy podczas budowy:");
+        console.log(stats.compilation.errors.join("\n"));
+        logError("Przeanalizuj problem i spróbuj jeszcze raz!");
       }
     });
   }
