@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { peopleController } from "./controllers/people";
 import { uploadController } from "./controllers/upload";
 import { weatherController } from "./controllers/weather";
@@ -11,7 +12,8 @@ const ensureEnv = (k: string) => {
 };
 
 const app = express();
-// docker run -p 4000:4000 --env-file .env -t wea:latest
+app.use(cors());
+
 const setup = () => {
   ensureEnv("API_KEY");
   ensureEnv("UPLOAD_API_KEY");
