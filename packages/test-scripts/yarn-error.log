@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/hubert/.nvs/node/10.18.1/x64/bin/node /Users/hubert/.yarn/bin/yarn.js
+  /Users/hubert/.nvs/node/10.18.1/x64/bin/node /Users/hubert/.yarn/bin/yarn.js add yauzl-promise
 
 PATH: 
-  /usr/local/Cellar/nodenv/1.3.1/libexec:/usr/local/Cellar/nodenv/1.3.1/libexec:/Users/hubert/.nodenv/shims:/Users/hubert/revops/google-cloud-sdk/bin:/Users/hubert/.nvs/default/bin:/Users/hubert/.yarn/bin:/Users/hubert/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/hubert/.rvm/bin
+  /usr/local/Cellar/nodenv/1.3.1/libexec:/usr/local/Cellar/nodenv/1.3.1/libexec:/Users/hubert/.nodenv/shims:/Users/hubert/.nvs/default/bin:/Users/hubert/.yarn/bin:/Users/hubert/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/hubert/.nodenv/shims:/Users/hubert/revops/google-cloud-sdk/bin:/Users/hubert/.nvs/default/bin:/Users/hubert/.yarn/bin:/Users/hubert/.config/yarn/global/node_modules/.bin:/Users/hubert/.rvm/bin
 
 Yarn version: 
   1.17.3
