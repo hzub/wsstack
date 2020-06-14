@@ -5,6 +5,7 @@ const path = require("path");
 const fs = require("fs");
 const caseJs = require("case");
 const { spawn } = require("child_process");
+// const spawn = require("cross-spawn");
 const ora = require("ora");
 
 const {
@@ -75,7 +76,12 @@ const run = () => {
   fs.writeFileSync(`${desiredDirectory}/src/style.css`, styleCss(desiredName));
   fs.writeFileSync(`${desiredDirectory}/src/script.js`, scriptJs(desiredName));
 
-  const npmExec = spawn("npm", ["install", "--prefix", desiredDirectory]);
+  process.chdir(desiredDirectory);
+
+  const npmExec = spawn("npm", ["install"], {
+    detached: false,
+    shell: true,
+  });
 
   const spinner = ora(
     chalk.greenBright(`Tworzę aplikację "${chalk.whiteBright(desiredName)}"...`)
