@@ -93,12 +93,24 @@ const run = async () => {
     console.log("Uruchamiam aplikację...");
     const sources = getScriptSrcsList(await parseHtml(inputHtmlPath));
 
+    const missingFiles = sources.filter(
+      (s) => !fs.existsSync(`${workingDir}/src/${s}`)
+    );
+    if (missingFiles.length) {
+      missingFiles.forEach((mf) => {
+        console.log(`[Błąd] Brak pliku skryptu "${mf}"!`);
+      });
+      return;
+    }
+
     const server = new DevServer(
       webpack(webpackConfig(sources, "development")),
       {
         contentBase: path.resolve(workingDir, "./src"),
         watchContentBase: true,
         open: true,
+        clientLogLevel: "silent",
+        quiet: true,
       }
     );
     server.listen(3000, () => {});

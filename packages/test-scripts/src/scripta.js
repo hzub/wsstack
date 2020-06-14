@@ -1,4 +1,8 @@
+import { fnz } from "./deep/scriptdeep";
 console.log("#1 jestem pierwszy");
-console.log("ZBUDOWANOOO cześć");
+console.log("ZBUDOWANOOO cześć ee");
 
-console.log(() => "test arrow fnszz");
+const xyz = false;
+const xyz = false;
+
+fnz();

@@ -1,8 +1,7 @@
 {
-  "name": "wowschool-www",
+  "name": "wowdroid",
   "version": "0.0.1",
-  "main": "index.js",
+  "bin": "./index.js",
   "license": "MIT",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
