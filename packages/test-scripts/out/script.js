@@ -81,23 +81,24 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/script.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/script.js":
+/*!***********************!*\
+  !*** ./src/script.js ***!
+  \***********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("ZBUDOWANOOO");
+console.log("ZBUDOWANOOO cześć");
 console.log(function () {
-  return "test arrow fns";
+  return "test arrow fnszz";
 });
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=script.js.map

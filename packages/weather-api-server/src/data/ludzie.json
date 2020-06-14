@@ -1,0 +1,2074 @@
+[
+  {
+    "imię": "Teresa",
+    "nazwisko": "Mróz",
+    "miasto": "Jarocin",
+    "ulica": "Poetycka 56",
+    "dataUrodzenia": "2004-06-11",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "wyścigi samochodowe",
+      "hodowla zwierząt",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Oliwier",
+    "nazwisko": "Kruk",
+    "miasto": "Nowogrodziec",
+    "ulica": "Nieszawska 59",
+    "dataUrodzenia": "2000-10-06",
+    "zainteresowania": [
+      "malowanie artystyczne",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Anna",
+    "nazwisko": "Mazurkiewicz",
+    "miasto": "Karpacz",
+    "ulica": "Smolna 40",
+    "dataUrodzenia": "2004-05-11",
+    "zainteresowania": ["praca przy komputerze"]
+  },
+
+  {
+    "imię": "Cecylia",
+    "nazwisko": "Kozłowska",
+    "miasto": "Brzostek",
+    "ulica": "Zawiertowska 102",
+    "dataUrodzenia": "2003-09-27",
+    "zainteresowania": [
+      "szycie",
+      "sklejanie modeli",
+      "fotografia",
+      "rzucanie lotkami"
+    ]
+  },
+  {
+    "imię": "Jeremiasz",
+    "nazwisko": "Kaczyński",
+    "miasto": "Buk",
+    "ulica": "Łąkowa 91",
+    "dataUrodzenia": "2001-06-24",
+    "zainteresowania": ["fotografia", "kolekcjonowanie monet/znaczków"]
+  },
+  {
+    "imię": "Hubert",
+    "nazwisko": "Izdebski",
+    "miasto": "Dębogórze",
+    "ulica": "Stanisława Wigury 54",
+    "dataUrodzenia": "2002-11-07",
+    "zainteresowania": ["wyścigi samochodowe"]
+  },
+  {
+    "imię": "Eudokia",
+    "nazwisko": "Wiśniewska",
+    "miasto": "Strzebielino Osiedle",
+    "ulica": "Rokietnicka 90",
+    "dataUrodzenia": "2005-01-22",
+    "zainteresowania": ["wyścigi samochodowe"]
+  },
+  {
+    "imię": "Oliwier",
+    "nazwisko": "Kowalczuk",
+    "miasto": "Sztabin",
+    "ulica": "Mrzeżyńska 74",
+    "dataUrodzenia": "2001-10-21",
+    "zainteresowania": ["praca w drewnie", "hodowla zwierząt"]
+  },
+  {
+    "imię": "Demetriusz",
+    "nazwisko": "Strzelczyk",
+    "miasto": "Rawa Mazowiecka",
+    "ulica": "Józefa Dowbora-Muśnickiego 62",
+    "dataUrodzenia": "2005-01-07",
+    "zainteresowania": ["szycie", "hodowanie tropikalnych rybek"]
+  },
+  {
+    "imię": "Teresa",
+    "nazwisko": "Kozieł",
+    "miasto": "Bieruń",
+    "ulica": "Polska 63",
+    "dataUrodzenia": "2001-11-11",
+    "zainteresowania": ["rzucanie lotkami", "rozwiązywanie krzyżówek"]
+  },
+  {
+    "imię": "Ksawera",
+    "nazwisko": "Szczepańska",
+    "miasto": "Brodnica",
+    "ulica": "Przełajowa 87",
+    "dataUrodzenia": "2001-11-08",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "praca ochotnicza",
+      "majsterkowanie",
+      "czytanie"
+    ]
+  },
+  {
+    "imię": "Igor",
+    "nazwisko": "Matuszewski",
+    "miasto": "Rokiciny-Kolonia",
+    "ulica": "Karawelowa 89",
+    "dataUrodzenia": "2001-11-24",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "gotowanie",
+      "hodowla zwierząt",
+      "garncarstwo"
+    ]
+  },
+  {
+    "imię": "Marek",
+    "nazwisko": "Ślusarczyk",
+    "miasto": "Knurów",
+    "ulica": "Antoniego Małeckiego 12",
+    "dataUrodzenia": "2002-06-05",
+    "zainteresowania": ["jazda na rowerze", "ćwiczenia gimnastyczne/aerobik"]
+  },
+  {
+    "imię": "Jerzy",
+    "nazwisko": "Antczak",
+    "miasto": "Koźmin Wielkopolski",
+    "ulica": "Obrzeże 100",
+    "dataUrodzenia": "2003-01-30",
+    "zainteresowania": ["kolekcjonowanie monet/znaczków"]
+  },
+  {
+    "imię": "Magnus",
+    "nazwisko": "Rogala",
+    "miasto": "Iwaniska",
+    "ulica": "Szadecka 25",
+    "dataUrodzenia": "2003-06-02",
+    "zainteresowania": ["gra na instrumentach muzycznych", "jazda na rowerze"]
+  },
+  {
+    "imię": "Edgar",
+    "nazwisko": "Piątek",
+    "miasto": "Murów",
+    "ulica": "Żywocicka 85",
+    "dataUrodzenia": "2005-04-03",
+    "zainteresowania": ["gry komputerowe"]
+  },
+  {
+    "imię": "Klara",
+    "nazwisko": "Bednarek",
+    "miasto": "Piekoszów",
+    "ulica": "Stolarska 63",
+    "dataUrodzenia": "2002-08-07",
+    "zainteresowania": ["garncarstwo", "rozwiązywanie krzyżówek"]
+  },
+  {
+    "imię": "Gonsalwy",
+    "nazwisko": "Szafrański",
+    "miasto": "Dobrzykowice",
+    "ulica": "Emilii Sczanieckiej 18",
+    "dataUrodzenia": "2003-04-28",
+    "zainteresowania": ["hodowanie tropikalnych rybek", "wytwarzanie mebli"]
+  },
+  {
+    "imię": "Joachim",
+    "nazwisko": "Frączek",
+    "miasto": "Leżajsk",
+    "ulica": "Orzechowa 82",
+    "dataUrodzenia": "2003-12-18",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "gra w piłkę nożną",
+      "praca w drewnie",
+      "praca ochotnicza"
+    ]
+  },
+  {
+    "imię": "Lucjan",
+    "nazwisko": "Raczyński",
+    "miasto": "Pasym",
+    "ulica": "Homera 100",
+    "dataUrodzenia": "2003-05-21",
+    "zainteresowania": ["jazda na rowerze", "garncarstwo", "astronomia"]
+  },
+  {
+    "imię": "Ewa",
+    "nazwisko": "Skowrońska",
+    "miasto": "Chrzanów",
+    "ulica": "Słubicka 42",
+    "dataUrodzenia": "2002-08-31",
+    "zainteresowania": [
+      "garncarstwo",
+      "obserwacja ptaków",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Konstancja",
+    "nazwisko": "Czech",
+    "miasto": "Pieniężno",
+    "ulica": "Pasłęcka 84",
+    "dataUrodzenia": "2004-07-19",
+    "zainteresowania": [
+      "ćwiczenia gimnastyczne/aerobik",
+      "wytwarzanie mebli",
+      "praca przy komputerze",
+      "astronomia"
+    ]
+  },
+  {
+    "imię": "Zygmunt",
+    "nazwisko": "Izdebski",
+    "miasto": "Narzym",
+    "ulica": "Kazimierza Brossa 36",
+    "dataUrodzenia": "2002-03-15",
+    "zainteresowania": ["czytanie", "obserwacja ptaków", "wspinaczka górska"]
+  },
+  {
+    "imię": "—",
+    "nazwisko": "Szeląg",
+    "miasto": "Korfantów",
+    "ulica": "Cerekwicka 71",
+    "dataUrodzenia": "2004-04-21",
+    "zainteresowania": [
+      "astronomia",
+      "rozwiązywanie krzyżówek",
+      "obserwacja ptaków"
+    ]
+  },
+  {
+    "imię": "Izabela",
+    "nazwisko": "Wolska",
+    "miasto": "Chodel",
+    "ulica": "Kazimierza Jarochowskiego 74",
+    "dataUrodzenia": "2004-10-30",
+    "zainteresowania": ["fotografia", "garncarstwo", "astronomia"]
+  },
+  {
+    "imię": "Amabela",
+    "nazwisko": "Sikora",
+    "miasto": "Terespol",
+    "ulica": "Połabska 59",
+    "dataUrodzenia": "2003-07-07",
+    "zainteresowania": ["czytanie"]
+  },
+  {
+    "imię": "Nadzieja",
+    "nazwisko": "Domagała",
+    "miasto": "Markuszów",
+    "ulica": "Marcelego Mottego 32",
+    "dataUrodzenia": "2005-03-13",
+    "zainteresowania": [
+      "rzucanie lotkami",
+      "hodowanie tropikalnych rybek",
+      "wyścigi samochodowe"
+    ]
+  },
+  {
+    "imię": "Agrypina",
+    "nazwisko": "Dziedzic",
+    "miasto": "Kobiór",
+    "ulica": "Ochota 30",
+    "dataUrodzenia": "2005-02-08",
+    "zainteresowania": ["wytwarzanie mebli", "astronomia"]
+  },
+  {
+    "imię": "Herbert",
+    "nazwisko": "Frankowski",
+    "miasto": "Dylaki",
+    "ulica": "Garbary 82",
+    "dataUrodzenia": "2004-04-02",
+    "zainteresowania": ["majsterkowanie", "rzucanie lotkami"]
+  },
+  {
+    "imię": "Samson",
+    "nazwisko": "Kowalczyk",
+    "miasto": "Żarów",
+    "ulica": "Łosiowa 91",
+    "dataUrodzenia": "2003-11-25",
+    "zainteresowania": ["hodowanie tropikalnych rybek"]
+  },
+  {
+    "imię": "Wacław",
+    "nazwisko": "Michalik",
+    "miasto": "Opole Lubelskie",
+    "ulica": "Iwana Bunina 103",
+    "dataUrodzenia": "2001-04-18",
+    "zainteresowania": [
+      "żeglowanie",
+      "ćwiczenia gimnastyczne/aerobik",
+      "obserwacja ptaków",
+      "praca przy komputerze"
+    ]
+  },
+  {
+    "imię": "Nazary",
+    "nazwisko": "Góra",
+    "miasto": "Unisław",
+    "ulica": "Cyraneczki 26",
+    "dataUrodzenia": "2004-01-16",
+    "zainteresowania": ["praca w drewnie"]
+  },
+  {
+    "imię": "Serafin",
+    "nazwisko": "Sołtysiak",
+    "miasto": "Kulesze Kościelne",
+    "ulica": "Perłowska 77",
+    "dataUrodzenia": "2004-10-13",
+    "zainteresowania": ["gotowanie", "żeglowanie"]
+  },
+  {
+    "imię": "Maksymilian",
+    "nazwisko": "Cebula",
+    "miasto": "Łódź",
+    "ulica": "Radlińska 83",
+    "dataUrodzenia": "2005-01-18",
+    "zainteresowania": ["żeglowanie"]
+  },
+  {
+    "imię": "Benedykt",
+    "nazwisko": "Bieńkowski",
+    "miasto": "Gaworzyce",
+    "ulica": "Emila Zoli 24",
+    "dataUrodzenia": "2003-12-04",
+    "zainteresowania": ["gra w piłkę nożną", "praca w drewnie"]
+  },
+  {
+    "imię": "August",
+    "nazwisko": "Wilczek",
+    "miasto": "Krzywda",
+    "ulica": "Florentyny Luboińskiej 61",
+    "dataUrodzenia": "2001-05-08",
+    "zainteresowania": ["garncarstwo", "żeglowanie"]
+  },
+  {
+    "imię": "Sybilla",
+    "nazwisko": "Kasprzyk",
+    "miasto": "Murzynowo",
+    "ulica": "Przelot 105",
+    "dataUrodzenia": "2001-05-06",
+    "zainteresowania": [
+      "wyścigi samochodowe",
+      "hodowanie tropikalnych rybek",
+      "czytanie"
+    ]
+  },
+  {
+    "imię": "Ewelina",
+    "nazwisko": "Malinowska",
+    "miasto": "Osiek",
+    "ulica": "Kaprala Wojtka 25",
+    "dataUrodzenia": "2004-11-14",
+    "zainteresowania": ["rozwiązywanie krzyżówek", "rzucanie lotkami"]
+  },
+  {
+    "imię": "Marek",
+    "nazwisko": "Bober",
+    "miasto": "Czarnowąsy",
+    "ulica": "Stanisława Latwisa 73",
+    "dataUrodzenia": "2002-08-27",
+    "zainteresowania": ["hodowla zwierząt", "gotowanie"]
+  },
+  {
+    "imię": "Liliana",
+    "nazwisko": "Stępień",
+    "miasto": "Zduńska Wola",
+    "ulica": "Lwowska 78",
+    "dataUrodzenia": "2001-01-24",
+    "zainteresowania": ["praca w drewnie", "czytanie", "sklejanie modeli"]
+  },
+  {
+    "imię": "Zachariasz",
+    "nazwisko": "Niewiadomski",
+    "miasto": "Gdów",
+    "ulica": "Wronczyńska 85",
+    "dataUrodzenia": "2001-06-14",
+    "zainteresowania": ["garncarstwo", "gotowanie", "astronomia"]
+  },
+  {
+    "imię": "Olga",
+    "nazwisko": "Nowicka",
+    "miasto": "Suchowola",
+    "ulica": "Wietrzna 71",
+    "dataUrodzenia": "2002-02-13",
+    "zainteresowania": ["elektronika", "gra w piłkę nożną"]
+  },
+  {
+    "imię": "Ferdynanda",
+    "nazwisko": "Makowska",
+    "miasto": "Raków",
+    "ulica": "Herbowa 47",
+    "dataUrodzenia": "2002-10-24",
+    "zainteresowania": [
+      "obserwacja ptaków",
+      "wspinaczka górska",
+      "wyścigi samochodowe",
+      "ogrodnictwo"
+    ]
+  },
+  {
+    "imię": "Patrycjusz",
+    "nazwisko": "Mrozek",
+    "miasto": "Pszów",
+    "ulica": "Ozimina 55",
+    "dataUrodzenia": "2004-04-28",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "gra w piłkę nożną",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Teodora",
+    "nazwisko": "Jaworska",
+    "miasto": "Międzyrzecz",
+    "ulica": "Józefa Czapskiego 96",
+    "dataUrodzenia": "2002-11-10",
+    "zainteresowania": ["taniec", "garncarstwo", "elektronika"]
+  },
+  {
+    "imię": "Tekla",
+    "nazwisko": "Olejnik",
+    "miasto": "Koło",
+    "ulica": "Kastylijska 100",
+    "dataUrodzenia": "2002-07-18",
+    "zainteresowania": ["wytwarzanie mebli", "ćwiczenia gimnastyczne/aerobik"]
+  },
+  {
+    "imię": "Artur",
+    "nazwisko": "Wolski",
+    "miasto": "Lewin Brzeski",
+    "ulica": "Mikołaja Kopernika 75",
+    "dataUrodzenia": "2003-09-25",
+    "zainteresowania": ["majsterkowanie"]
+  },
+  {
+    "imię": "Wanesa",
+    "nazwisko": "Krajewska",
+    "miasto": "Wołów",
+    "ulica": "Mylna 91",
+    "dataUrodzenia": "2004-10-23",
+    "zainteresowania": ["gra na instrumentach muzycznych", "gotowanie"]
+  },
+  {
+    "imię": "Łukasz",
+    "nazwisko": "Kubica",
+    "miasto": "Trofimówka",
+    "ulica": "Maszynowa 23",
+    "dataUrodzenia": "2005-02-16",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "wytwarzanie mebli",
+      "majsterkowanie"
+    ]
+  },
+  {
+    "imię": "Szczepan",
+    "nazwisko": "Stachowiak",
+    "miasto": "Banie Mazurskie",
+    "ulica": "Johanna Wolfganga Goethego 55",
+    "dataUrodzenia": "2003-08-06",
+    "zainteresowania": [
+      "praca ochotnicza",
+      "hodowla zwierząt",
+      "gry komputerowe"
+    ]
+  },
+  {
+    "imię": "Henryka",
+    "nazwisko": "Markiewicz",
+    "miasto": "Ścinawa",
+    "ulica": "Jana Rymarkiewicza 20",
+    "dataUrodzenia": "2004-11-19",
+    "zainteresowania": [
+      "wyścigi samochodowe",
+      "praca w drewnie",
+      "praca przy samochodzie",
+      "hodowanie tropikalnych rybek"
+    ]
+  },
+  {
+    "imię": "Walenty",
+    "nazwisko": "Białas",
+    "miasto": "Tarnów",
+    "ulica": "Wieruszowska 47",
+    "dataUrodzenia": "2003-11-26",
+    "zainteresowania": [
+      "rzucanie lotkami",
+      "kolekcjonowanie monet/znaczków",
+      "hodowanie tropikalnych rybek"
+    ]
+  },
+  {
+    "imię": "Liza",
+    "nazwisko": "Mikołajczyk",
+    "miasto": "Łęgowo",
+    "ulica": "Brodnicka 51",
+    "dataUrodzenia": "2004-01-19",
+    "zainteresowania": [
+      "czytanie",
+      "praca przy samochodzie",
+      "malowanie artystyczne"
+    ]
+  },
+  {
+    "imię": "Rajnold",
+    "nazwisko": "Kucharski",
+    "miasto": "Płoty",
+    "ulica": "Górska 20",
+    "dataUrodzenia": "2002-09-29",
+    "zainteresowania": [
+      "majsterkowanie",
+      "rozwiązywanie krzyżówek",
+      "praca przy samochodzie"
+    ]
+  },
+  {
+    "imię": "Roksana",
+    "nazwisko": "Lewandowska",
+    "miasto": "Jedlicze",
+    "ulica": "Epicka 99",
+    "dataUrodzenia": "2004-12-31",
+    "zainteresowania": ["wędkarstwo", "rzucanie lotkami"]
+  },
+  {
+    "imię": "Igor",
+    "nazwisko": "Skowroński",
+    "miasto": "Złotów",
+    "ulica": "Maków Polnych 87",
+    "dataUrodzenia": "2005-04-16",
+    "zainteresowania": ["elektronika", "jazda na rowerze"]
+  },
+  {
+    "imię": "Tekla",
+    "nazwisko": "Janiszewska",
+    "miasto": "Jastków",
+    "ulica": "Franciszka Stróżyńskiego 68",
+    "dataUrodzenia": "2004-08-21",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "wytwarzanie mebli",
+      "wyścigi samochodowe"
+    ]
+  },
+  {
+    "imię": "Nazary",
+    "nazwisko": "Mroczkowski",
+    "miasto": "Biały Dunajec",
+    "ulica": "Wieluńska 70",
+    "dataUrodzenia": "2005-05-29",
+    "zainteresowania": ["garncarstwo"]
+  },
+  {
+    "imię": "Gonsalwy",
+    "nazwisko": "Kwieciński",
+    "miasto": "Miechucino",
+    "ulica": "Bartnicza 18",
+    "dataUrodzenia": "2004-11-04",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "majsterkowanie",
+      "garncarstwo",
+      "praca ochotnicza"
+    ]
+  },
+  {
+    "imię": "Łucja",
+    "nazwisko": "Tomczyk",
+    "miasto": "Humniska",
+    "ulica": "Skośna 38",
+    "dataUrodzenia": "2004-04-24",
+    "zainteresowania": ["ogrodnictwo"]
+  },
+  {
+    "imię": "Hanna",
+    "nazwisko": "Mazurkiewicz",
+    "miasto": "Brzeg",
+    "ulica": "Panny 51",
+    "dataUrodzenia": "2000-11-13",
+    "zainteresowania": [
+      "rozwiązywanie krzyżówek",
+      "gry komputerowe",
+      "wędkarstwo"
+    ]
+  },
+  {
+    "imię": "August",
+    "nazwisko": "Filipowicz",
+    "miasto": "Stronie Śląskie",
+    "ulica": "Mołdawska 104",
+    "dataUrodzenia": "2003-06-18",
+    "zainteresowania": ["wspinaczka górska", "wędkarstwo"]
+  },
+  {
+    "imię": "Greta",
+    "nazwisko": "Bednarek",
+    "miasto": "Klimontów",
+    "ulica": "Białostocka 63",
+    "dataUrodzenia": "2004-04-10",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Patrycjusz",
+    "nazwisko": "Maj",
+    "miasto": "Przemków",
+    "ulica": "Trzcianecka 22",
+    "dataUrodzenia": "2002-10-30",
+    "zainteresowania": ["wędkarstwo", "wyścigi samochodowe"]
+  },
+  {
+    "imię": "Prokul",
+    "nazwisko": "Kasperek",
+    "miasto": "Poddębice",
+    "ulica": "Laudańska 104",
+    "dataUrodzenia": "2002-01-07",
+    "zainteresowania": ["gotowanie", "kolekcjonowanie monet/znaczków"]
+  },
+  {
+    "imię": "Zoe",
+    "nazwisko": "Partyka",
+    "miasto": "Bytów",
+    "ulica": "Adama Kręglewskiego 10",
+    "dataUrodzenia": "2002-10-14",
+    "zainteresowania": ["obserwacja ptaków", "taniec", "wytwarzanie mebli"]
+  },
+  {
+    "imię": "Michał",
+    "nazwisko": "Modzelewski",
+    "miasto": "Sadlinki",
+    "ulica": "Patrice`a Lumumby 66",
+    "dataUrodzenia": "2004-04-30",
+    "zainteresowania": ["szycie", "wyścigi samochodowe"]
+  },
+  {
+    "imię": "Noemi",
+    "nazwisko": "Stępień",
+    "miasto": "Dobczyce",
+    "ulica": "Wojskowa 52",
+    "dataUrodzenia": "2003-06-18",
+    "zainteresowania": ["praca przy samochodzie", "wyścigi samochodowe"]
+  },
+  {
+    "imię": "Zachary",
+    "nazwisko": "Szczygieł",
+    "miasto": "Piastów",
+    "ulica": "Ślesińska 104",
+    "dataUrodzenia": "2001-12-25",
+    "zainteresowania": ["rzucanie lotkami", "gotowanie"]
+  },
+  {
+    "imię": "Kamila",
+    "nazwisko": "Rogowska",
+    "miasto": "Racławówka",
+    "ulica": "Rakietowa 19",
+    "dataUrodzenia": "2001-12-07",
+    "zainteresowania": [
+      "wytwarzanie mebli",
+      "praca przy komputerze",
+      "gry komputerowe",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Pelagia",
+    "nazwisko": "Pawlik",
+    "miasto": "Zebrzydowice",
+    "ulica": "Idy Fink 42",
+    "dataUrodzenia": "2001-01-04",
+    "zainteresowania": [
+      "gry komputerowe",
+      "rzucanie lotkami",
+      "malowanie artystyczne"
+    ]
+  },
+  {
+    "imię": "Henryk",
+    "nazwisko": "Sosnowski",
+    "miasto": "Lubień Kujawski",
+    "ulica": "Tatrzańska 50",
+    "dataUrodzenia": "2005-03-11",
+    "zainteresowania": [
+      "ćwiczenia gimnastyczne/aerobik",
+      "wytwarzanie mebli",
+      "wyścigi samochodowe",
+      "elektronika"
+    ]
+  },
+  {
+    "imię": "Apollo",
+    "nazwisko": "Krawczyk",
+    "miasto": "Ińsko",
+    "ulica": "Heleny Modrzejewskiej 89",
+    "dataUrodzenia": "2004-11-03",
+    "zainteresowania": ["elektronika", "gra na instrumentach muzycznych"]
+  },
+  {
+    "imię": "Wilhelmina",
+    "nazwisko": "Czajka",
+    "miasto": "Resko",
+    "ulica": "Torfowa 71",
+    "dataUrodzenia": "2002-02-10",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "hodowla zwierząt",
+      "rozwiązywanie krzyżówek",
+      "wędkarstwo"
+    ]
+  },
+  {
+    "imię": "Julia",
+    "nazwisko": "Szulc",
+    "miasto": "Żywiec",
+    "ulica": "Winogronowa 87",
+    "dataUrodzenia": "2001-06-28",
+    "zainteresowania": [
+      "gry komputerowe",
+      "gra na instrumentach muzycznych",
+      "wytwarzanie mebli"
+    ]
+  },
+  {
+    "imię": "Katarzyna",
+    "nazwisko": "Jankowska",
+    "miasto": "Dywity",
+    "ulica": "Michała Kajki 41",
+    "dataUrodzenia": "2004-05-27",
+    "zainteresowania": [
+      "wyścigi samochodowe",
+      "fotografia",
+      "praca przy samochodzie"
+    ]
+  },
+  {
+    "imię": "Hilarion",
+    "nazwisko": "Kubica",
+    "miasto": "Międzyrzecz",
+    "ulica": "Sobiesława 63",
+    "dataUrodzenia": "2002-10-05",
+    "zainteresowania": [
+      "taniec",
+      "gra w piłkę nożną",
+      "majsterkowanie",
+      "czytanie"
+    ]
+  },
+  {
+    "imię": "Józefina",
+    "nazwisko": "Kalinowska",
+    "miasto": "Recz",
+    "ulica": "Kazimierza Spornego 66",
+    "dataUrodzenia": "2003-01-23",
+    "zainteresowania": [
+      "gra w piłkę nożną",
+      "majsterkowanie",
+      "praca przy komputerze"
+    ]
+  },
+  {
+    "imię": "Modest",
+    "nazwisko": "Makowski",
+    "miasto": "Fasty",
+    "ulica": "Pomorska 45",
+    "dataUrodzenia": "2005-03-02",
+    "zainteresowania": ["garncarstwo", "wytwarzanie mebli", "szycie"]
+  },
+  {
+    "imię": "Ksawera",
+    "nazwisko": "Zięba",
+    "miasto": "Ozorków",
+    "ulica": "Laskowa 96",
+    "dataUrodzenia": "2003-07-14",
+    "zainteresowania": [
+      "garncarstwo",
+      "gra w piłkę nożną",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Konstanty",
+    "nazwisko": "Kula",
+    "miasto": "Krzywiń",
+    "ulica": "Szubińska 61",
+    "dataUrodzenia": "2004-06-27",
+    "zainteresowania": ["praca przy samochodzie", "wspinaczka górska"]
+  },
+  {
+    "imię": "Daniel",
+    "nazwisko": "Tomaszewski",
+    "miasto": "Przecław",
+    "ulica": "Michała Wołodyjowskiego 96",
+    "dataUrodzenia": "2005-04-27",
+    "zainteresowania": [
+      "obserwacja ptaków",
+      "wyścigi samochodowe",
+      "gra na instrumentach muzycznych",
+      "malowanie artystyczne"
+    ]
+  },
+  {
+    "imię": "Benedykt",
+    "nazwisko": "Chrzanowski",
+    "miasto": "Grabin",
+    "ulica": "Stefana Szolca-Rogozińskiego 67",
+    "dataUrodzenia": "2005-04-17",
+    "zainteresowania": ["astronomia", "wyścigi samochodowe", "elektronika"]
+  },
+  {
+    "imię": "Dionizy",
+    "nazwisko": "Kurek",
+    "miasto": "Tomaszów Lubelski",
+    "ulica": "Chochołowska 39",
+    "dataUrodzenia": "2000-08-06",
+    "zainteresowania": ["gry komputerowe", "majsterkowanie"]
+  },
+  {
+    "imię": "Ksenia",
+    "nazwisko": "Leśniak",
+    "miasto": "Lubowidz",
+    "ulica": "Łagiewnicka 41",
+    "dataUrodzenia": "2002-02-10",
+    "zainteresowania": ["taniec", "obserwacja ptaków"]
+  },
+  {
+    "imię": "Judyta",
+    "nazwisko": "Walczak",
+    "miasto": "Ożarów",
+    "ulica": "Łopianowa 16",
+    "dataUrodzenia": "2003-05-02",
+    "zainteresowania": ["taniec", "elektronika"]
+  },
+  {
+    "imię": "Beniamin",
+    "nazwisko": "Murawski",
+    "miasto": "Nowa Wieś Ełcka",
+    "ulica": "Dojazd 50",
+    "dataUrodzenia": "2003-01-11",
+    "zainteresowania": [
+      "szycie",
+      "rozwiązywanie krzyżówek",
+      "praca ochotnicza",
+      "taniec"
+    ]
+  },
+  {
+    "imię": "Innocenty",
+    "nazwisko": "Banasik",
+    "miasto": "Ćmiłów",
+    "ulica": "Wojnowicka 84",
+    "dataUrodzenia": "2005-03-18",
+    "zainteresowania": ["kolekcjonowanie monet/znaczków", "wspinaczka górska"]
+  },
+  {
+    "imię": "Walery",
+    "nazwisko": "Adamiak",
+    "miasto": "Goleniów",
+    "ulica": "Franciszka Stróżyńskiego 8",
+    "dataUrodzenia": "2001-12-22",
+    "zainteresowania": ["wędkarstwo", "fotografia", "astronomia"]
+  },
+  {
+    "imię": "Róża",
+    "nazwisko": "Gajewska",
+    "miasto": "Gaworzyce",
+    "ulica": "Aragońska 102",
+    "dataUrodzenia": "2000-07-23",
+    "zainteresowania": ["praca ochotnicza", "praca przy komputerze"]
+  },
+  {
+    "imię": "Laurencjusz",
+    "nazwisko": "Siedlecki",
+    "miasto": "Sędziszów",
+    "ulica": "Franciszka Adamanisa 16",
+    "dataUrodzenia": "2003-08-26",
+    "zainteresowania": ["gotowanie", "czytanie"]
+  },
+  {
+    "imię": "Maja",
+    "nazwisko": "Laskowska",
+    "miasto": "Zakrzewo",
+    "ulica": "Gołuchowska 21",
+    "dataUrodzenia": "2004-09-01",
+    "zainteresowania": [
+      "fotografia",
+      "gra w piłkę nożną",
+      "praca przy komputerze"
+    ]
+  },
+  {
+    "imię": "Prokul",
+    "nazwisko": "Królikowski",
+    "miasto": "Rozwadza",
+    "ulica": "Chodzieska 55",
+    "dataUrodzenia": "2002-09-18",
+    "zainteresowania": [
+      "gry komputerowe",
+      "żeglowanie",
+      "gra w piłkę nożną",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Justyn",
+    "nazwisko": "Klimek",
+    "miasto": "Grzybowo",
+    "ulica": "Płomienna 23",
+    "dataUrodzenia": "2001-04-08",
+    "zainteresowania": ["czytanie", "rozwiązywanie krzyżówek"]
+  },
+  {
+    "imię": "Patrycja",
+    "nazwisko": "Sobczak",
+    "miasto": "Radoszyce",
+    "ulica": "Muszkowska 34",
+    "dataUrodzenia": "2003-04-06",
+    "zainteresowania": ["taniec", "praca ochotnicza", "jazda na rowerze"]
+  },
+  {
+    "imię": "Jadwiga",
+    "nazwisko": "Brzozowska",
+    "miasto": "Sierakowice",
+    "ulica": "Lucyny Sieciechowiczowej 99",
+    "dataUrodzenia": "2004-10-13",
+    "zainteresowania": ["praca w drewnie", "obserwacja ptaków"]
+  },
+  {
+    "imię": "Karolina",
+    "nazwisko": "Brzozowska",
+    "miasto": "Sierakowice",
+    "ulica": "Odległa 87",
+    "dataUrodzenia": "2002-06-22",
+    "zainteresowania": ["astronomia", "elektronika"]
+  },
+  {
+    "imię": "Natalia",
+    "nazwisko": "Lipińska",
+    "miasto": "Gorzyce",
+    "ulica": "Orla 76",
+    "dataUrodzenia": "2000-12-01",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "astronomia",
+      "kolekcjonowanie monet/znaczków"
+    ]
+  },
+  {
+    "imię": "Kornelia",
+    "nazwisko": "Socha",
+    "miasto": "Oleśnica",
+    "ulica": "Kostrzyńska 25",
+    "dataUrodzenia": "2001-09-11",
+    "zainteresowania": ["praca przy komputerze"]
+  },
+  {
+    "imię": "Edyta",
+    "nazwisko": "Majewska",
+    "miasto": "Suchowola",
+    "ulica": "Nad Krzesinką 89",
+    "dataUrodzenia": "2002-11-13",
+    "zainteresowania": ["szycie", "fotografia", "hodowanie tropikalnych rybek"]
+  },
+  {
+    "imię": "Harald",
+    "nazwisko": "Białek",
+    "miasto": "Banie",
+    "ulica": "Obrzeże 54",
+    "dataUrodzenia": "2003-08-30",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "taniec",
+      "gry komputerowe"
+    ]
+  },
+  {
+    "imię": "Klemens",
+    "nazwisko": "Lewandowski",
+    "miasto": "Zebrzydowice",
+    "ulica": "Ludosławy 91",
+    "dataUrodzenia": "2003-10-10",
+    "zainteresowania": [
+      "wytwarzanie mebli",
+      "wyścigi samochodowe",
+      "gotowanie",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Fabian",
+    "nazwisko": "Niemiec",
+    "miasto": "Skała",
+    "ulica": "Jędrzejowska 100",
+    "dataUrodzenia": "2001-06-14",
+    "zainteresowania": ["ogrodnictwo", "garncarstwo", "fotografia"]
+  },
+  {
+    "imię": "Zachary",
+    "nazwisko": "Michałek",
+    "miasto": "Bieliny",
+    "ulica": "Balonowa 101",
+    "dataUrodzenia": "2003-03-27",
+    "zainteresowania": ["sklejanie modeli", "wytwarzanie mebli"]
+  },
+  {
+    "imię": "Maksym",
+    "nazwisko": "Januszewski",
+    "miasto": "Chrząstowice",
+    "ulica": "Józefa Rymera 100",
+    "dataUrodzenia": "2002-01-26",
+    "zainteresowania": ["hodowanie tropikalnych rybek", "majsterkowanie"]
+  },
+  {
+    "imię": "Bibianna",
+    "nazwisko": "Witkowska",
+    "miasto": "Biała Rawska",
+    "ulica": "Zawady 103",
+    "dataUrodzenia": "2003-11-20",
+    "zainteresowania": ["ogrodnictwo", "gotowanie", "wędkarstwo", "czytanie"]
+  },
+  {
+    "imię": "Izabela",
+    "nazwisko": "Przybylska",
+    "miasto": "Teresin",
+    "ulica": "Poznańskie Sady 32",
+    "dataUrodzenia": "2002-12-16",
+    "zainteresowania": ["gra na instrumentach muzycznych", "jazda na rowerze"]
+  },
+  {
+    "imię": "Maja",
+    "nazwisko": "Lisowska",
+    "miasto": "Chocianów",
+    "ulica": "Orężna 54",
+    "dataUrodzenia": "2003-03-13",
+    "zainteresowania": ["gry komputerowe", "jazda na rowerze", "majsterkowanie"]
+  },
+  {
+    "imię": "Barbara",
+    "nazwisko": "Kuczyńska",
+    "miasto": "Tychowo",
+    "ulica": "Skotarska 80",
+    "dataUrodzenia": "2003-02-26",
+    "zainteresowania": ["rozwiązywanie krzyżówek"]
+  },
+  {
+    "imię": "Patrycy",
+    "nazwisko": "Konieczna",
+    "miasto": "Wrocław",
+    "ulica": "Kaliowa 20",
+    "dataUrodzenia": "2002-04-05",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "kolekcjonowanie monet/znaczków"
+    ]
+  },
+  {
+    "imię": "Edyta",
+    "nazwisko": "Laskowska",
+    "miasto": "Chwalęcice",
+    "ulica": "Dzieci Wrzesińskich 74",
+    "dataUrodzenia": "2004-07-22",
+    "zainteresowania": [
+      "rzucanie lotkami",
+      "astronomia",
+      "gra w piłkę nożną",
+      "ogrodnictwo"
+    ]
+  },
+  {
+    "imię": "Klemens",
+    "nazwisko": "Dudek",
+    "miasto": "Rakoniewice",
+    "ulica": "Szubińska 75",
+    "dataUrodzenia": "2001-06-18",
+    "zainteresowania": ["gra na instrumentach muzycznych"]
+  },
+  {
+    "imię": "Larysa",
+    "nazwisko": "Nowak",
+    "miasto": "Stare Kurowo",
+    "ulica": "Bogusława 84",
+    "dataUrodzenia": "2000-07-11",
+    "zainteresowania": ["elektronika", "czytanie", "gry komputerowe"]
+  },
+  {
+    "imię": "Olaf",
+    "nazwisko": "Masłowski",
+    "miasto": "Miłomłyn",
+    "ulica": "Podolska 86",
+    "dataUrodzenia": "2001-01-19",
+    "zainteresowania": ["elektronika", "garncarstwo", "majsterkowanie"]
+  },
+  {
+    "imię": "Spirydion",
+    "nazwisko": "Szcześniak",
+    "miasto": "Gomunice",
+    "ulica": "Przebiśniegowa 31",
+    "dataUrodzenia": "2002-10-19",
+    "zainteresowania": ["praca przy samochodzie"]
+  },
+  {
+    "imię": "Ignacy",
+    "nazwisko": "Gutowski",
+    "miasto": "Bakałarzewo",
+    "ulica": "Szpaków 15",
+    "dataUrodzenia": "2002-02-25",
+    "zainteresowania": [
+      "fotografia",
+      "szycie",
+      "wyścigi samochodowe",
+      "praca przy komputerze"
+    ]
+  },
+  {
+    "imię": "Leonid",
+    "nazwisko": "Jędrzejewski",
+    "miasto": "Zator",
+    "ulica": "Armeńska 40",
+    "dataUrodzenia": "2000-10-05",
+    "zainteresowania": [
+      "astronomia",
+      "wytwarzanie mebli",
+      "praca przy komputerze",
+      "gotowanie"
+    ]
+  },
+  {
+    "imię": "Cyrus",
+    "nazwisko": "Nowaczyk",
+    "miasto": "Trzebiatów",
+    "ulica": "Galileusza 24",
+    "dataUrodzenia": "2004-11-15",
+    "zainteresowania": ["gotowanie", "jazda na rowerze"]
+  },
+  {
+    "imię": "Gerald",
+    "nazwisko": "Kowalczyk",
+    "miasto": "Strawczyn",
+    "ulica": "Migdałowa 40",
+    "dataUrodzenia": "2003-09-30",
+    "zainteresowania": [
+      "jazda na rowerze",
+      "malowanie artystyczne",
+      "gra w piłkę nożną",
+      "kolekcjonowanie monet/znaczków"
+    ]
+  },
+  {
+    "imię": "Justyna",
+    "nazwisko": "Kaczmarek",
+    "miasto": "Dobiegniew",
+    "ulica": "Na Skarpie 39",
+    "dataUrodzenia": "2002-03-12",
+    "zainteresowania": [
+      "hodowla zwierząt",
+      "praca przy samochodzie",
+      "garncarstwo",
+      "obserwacja ptaków"
+    ]
+  },
+  {
+    "imię": "Maksym",
+    "nazwisko": "Kujawski",
+    "miasto": "Nysa",
+    "ulica": "Floriana Marciniaka 49",
+    "dataUrodzenia": "2005-05-17",
+    "zainteresowania": ["szycie", "wędkarstwo"]
+  },
+  {
+    "imię": "Konstantyn",
+    "nazwisko": "Białek",
+    "miasto": "Jamielnik",
+    "ulica": "Żegrze 15",
+    "dataUrodzenia": "2004-07-16",
+    "zainteresowania": [
+      "astronomia",
+      "obserwacja ptaków",
+      "wędkarstwo",
+      "malowanie artystyczne"
+    ]
+  },
+  {
+    "imię": "Izabela",
+    "nazwisko": "Czech",
+    "miasto": "Garbów I",
+    "ulica": "Retmańska 53",
+    "dataUrodzenia": "2003-04-10",
+    "zainteresowania": ["gotowanie", "gra w piłkę nożną"]
+  },
+  {
+    "imię": "Agata",
+    "nazwisko": "Kozioł",
+    "miasto": "Pyskowice",
+    "ulica": "Dworkowa 55",
+    "dataUrodzenia": "2003-10-03",
+    "zainteresowania": ["taniec", "wędkarstwo", "wytwarzanie mebli"]
+  },
+  {
+    "imię": "Walenty",
+    "nazwisko": "Górski",
+    "miasto": "Lubań",
+    "ulica": "Rumuńska 45",
+    "dataUrodzenia": "2002-06-03",
+    "zainteresowania": ["żeglowanie", "gotowanie", "czytanie", "szycie"]
+  },
+  {
+    "imię": "—",
+    "nazwisko": "Karpiński",
+    "miasto": "Międzychód",
+    "ulica": "Przy Dolinie 32",
+    "dataUrodzenia": "2004-10-10",
+    "zainteresowania": ["szycie", "gry komputerowe", "żeglowanie"]
+  },
+  {
+    "imię": "Zachariasz",
+    "nazwisko": "Laskowski",
+    "miasto": "Węgorzewo",
+    "ulica": "Szronowa 54",
+    "dataUrodzenia": "2001-03-04",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "praca w drewnie",
+      "garncarstwo"
+    ]
+  },
+  {
+    "imię": "Lilla",
+    "nazwisko": "Kowalewska",
+    "miasto": "Libiąż",
+    "ulica": "Chodzieska 81",
+    "dataUrodzenia": "2004-01-31",
+    "zainteresowania": [
+      "kolekcjonowanie monet/znaczków",
+      "majsterkowanie",
+      "ogrodnictwo"
+    ]
+  },
+  {
+    "imię": "Łukasz",
+    "nazwisko": "Madej",
+    "miasto": "Rokiciny-Kolonia",
+    "ulica": "Sytkowska 31",
+    "dataUrodzenia": "2001-06-16",
+    "zainteresowania": [
+      "obserwacja ptaków",
+      "jazda na rowerze",
+      "sklejanie modeli"
+    ]
+  },
+  {
+    "imię": "Roksana",
+    "nazwisko": "Kowalczyk",
+    "miasto": "Bełchatów",
+    "ulica": "Adama Wrzoska 15",
+    "dataUrodzenia": "2002-11-18",
+    "zainteresowania": [
+      "rozwiązywanie krzyżówek",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Larysa",
+    "nazwisko": "Kozioł",
+    "miasto": "Śniadowo",
+    "ulica": "Maszewska 53",
+    "dataUrodzenia": "2000-11-21",
+    "zainteresowania": ["rozwiązywanie krzyżówek", "malowanie artystyczne"]
+  },
+  {
+    "imię": "Ilona",
+    "nazwisko": "Czajka",
+    "miasto": "Grębocin",
+    "ulica": "Rybitwy 41",
+    "dataUrodzenia": "2002-08-19",
+    "zainteresowania": [
+      "rzucanie lotkami",
+      "obserwacja ptaków",
+      "szycie",
+      "garncarstwo"
+    ]
+  },
+  {
+    "imię": "Leonard",
+    "nazwisko": "Kaczyński",
+    "miasto": "Słomniki",
+    "ulica": "Stefana Różyckiego 102",
+    "dataUrodzenia": "2004-10-29",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "gra w piłkę nożną",
+      "obserwacja ptaków",
+      "hodowla zwierząt"
+    ]
+  },
+  {
+    "imię": "Eliasz",
+    "nazwisko": "Maj",
+    "miasto": "Sława",
+    "ulica": "Ziarnista 103",
+    "dataUrodzenia": "2004-12-26",
+    "zainteresowania": [
+      "jazda na rowerze",
+      "gra na instrumentach muzycznych",
+      "gra w piłkę nożną"
+    ]
+  },
+  {
+    "imię": "Wanda",
+    "nazwisko": "Klimek",
+    "miasto": "Poznań",
+    "ulica": "Podhalańska 76",
+    "dataUrodzenia": "2002-05-24",
+    "zainteresowania": [
+      "praca w drewnie",
+      "wspinaczka górska",
+      "szycie",
+      "kolekcjonowanie monet/znaczków"
+    ]
+  },
+  {
+    "imię": "Osmund",
+    "nazwisko": "Sitek",
+    "miasto": "Miedziana Góra",
+    "ulica": "Arnikowa 40",
+    "dataUrodzenia": "2003-01-19",
+    "zainteresowania": ["praca w drewnie", "jazda na rowerze"]
+  },
+  {
+    "imię": "Edmund",
+    "nazwisko": "Zych",
+    "miasto": "Linia",
+    "ulica": "Cześnikowska 76",
+    "dataUrodzenia": "2001-11-11",
+    "zainteresowania": ["praca przy samochodzie", "praca ochotnicza"]
+  },
+  {
+    "imię": "Greta",
+    "nazwisko": "Rutkowska",
+    "miasto": "Zgórsko",
+    "ulica": "Limanowska 66",
+    "dataUrodzenia": "2002-09-13",
+    "zainteresowania": ["taniec"]
+  },
+  {
+    "imię": "Łazarz",
+    "nazwisko": "Cichy",
+    "miasto": "Pawłowice",
+    "ulica": "Przylaszczkowa 84",
+    "dataUrodzenia": "2005-03-30",
+    "zainteresowania": [
+      "majsterkowanie",
+      "kolekcjonowanie monet/znaczków",
+      "wytwarzanie mebli",
+      "jazda na rowerze"
+    ]
+  },
+  {
+    "imię": "Bruno",
+    "nazwisko": "Serafin",
+    "miasto": "Szamocin",
+    "ulica": "Lubelska 97",
+    "dataUrodzenia": "2000-10-09",
+    "zainteresowania": ["praca w drewnie", "hodowla zwierząt"]
+  },
+  {
+    "imię": "Edmund",
+    "nazwisko": "Surma",
+    "miasto": "Kościerzyna",
+    "ulica": "Raszkowska 46",
+    "dataUrodzenia": "2000-10-03",
+    "zainteresowania": [
+      "gra na instrumentach muzycznych",
+      "wędkarstwo",
+      "rozwiązywanie krzyżówek"
+    ]
+  },
+  {
+    "imię": "Emilia",
+    "nazwisko": "Bednarz",
+    "miasto": "Pyzdry",
+    "ulica": "Błońska 15",
+    "dataUrodzenia": "2003-10-19",
+    "zainteresowania": ["garncarstwo"]
+  },
+  {
+    "imię": "Izabela",
+    "nazwisko": "Stankiewicz",
+    "miasto": "Kalinów",
+    "ulica": "Orawski 60",
+    "dataUrodzenia": "2000-11-26",
+    "zainteresowania": ["gry komputerowe", "czytanie", "wyścigi samochodowe"]
+  },
+  {
+    "imię": "Ginewra",
+    "nazwisko": "Śliwińska",
+    "miasto": "Zajęczniki",
+    "ulica": "Dedala 15",
+    "dataUrodzenia": "2000-11-16",
+    "zainteresowania": ["jazda na rowerze"]
+  },
+  {
+    "imię": "Janusz",
+    "nazwisko": "Szymański",
+    "miasto": "Janki",
+    "ulica": "Heleny Szafran 84",
+    "dataUrodzenia": "2005-02-28",
+    "zainteresowania": ["szycie", "sklejanie modeli", "garncarstwo"]
+  },
+  {
+    "imię": "Filip",
+    "nazwisko": "Gwóźdź",
+    "miasto": "Piotrków Kujawski",
+    "ulica": "Piławska 21",
+    "dataUrodzenia": "2002-07-01",
+    "zainteresowania": [
+      "praca ochotnicza",
+      "praca w drewnie",
+      "praca przy komputerze",
+      "gotowanie"
+    ]
+  },
+  {
+    "imię": "Zoe",
+    "nazwisko": "Stasiak",
+    "miasto": "Kije",
+    "ulica": "Charzykowska 16",
+    "dataUrodzenia": "2000-12-27",
+    "zainteresowania": ["gra na instrumentach muzycznych", "praca w drewnie"]
+  },
+  {
+    "imię": "Lilia",
+    "nazwisko": "Kurek",
+    "miasto": "Piła",
+    "ulica": "Bitwy pod Siekierkami 71",
+    "dataUrodzenia": "2004-08-26",
+    "zainteresowania": ["malowanie artystyczne", "taniec", "hodowla zwierząt"]
+  },
+  {
+    "imię": "Efrem",
+    "nazwisko": "Łukasiewicz",
+    "miasto": "Lipce Reymontowskie",
+    "ulica": "Bruzdowa 21",
+    "dataUrodzenia": "2001-05-15",
+    "zainteresowania": ["obserwacja ptaków", "wędkarstwo"]
+  },
+  {
+    "imię": "Lilianna",
+    "nazwisko": "Wróblewska",
+    "miasto": "Kuniów",
+    "ulica": "Krystyny Feldman 41",
+    "dataUrodzenia": "2004-08-28",
+    "zainteresowania": [
+      "hodowla zwierząt",
+      "praca w drewnie",
+      "obserwacja ptaków"
+    ]
+  },
+  {
+    "imię": "Joachim",
+    "nazwisko": "Iwański",
+    "miasto": "Śródlesie",
+    "ulica": "Teodora Parnickiego 16",
+    "dataUrodzenia": "2000-09-19",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "jazda na rowerze",
+      "gry komputerowe"
+    ]
+  },
+  {
+    "imię": "Gabriela",
+    "nazwisko": "Majchrzak",
+    "miasto": "Tuchów",
+    "ulica": "Sowia 56",
+    "dataUrodzenia": "2002-10-25",
+    "zainteresowania": ["wędkarstwo", "praca ochotnicza"]
+  },
+  {
+    "imię": "Emil",
+    "nazwisko": "Woliński",
+    "miasto": "Łukawiec",
+    "ulica": "Jana Sokołowskiego 28",
+    "dataUrodzenia": "2001-10-05",
+    "zainteresowania": [
+      "gotowanie",
+      "ćwiczenia gimnastyczne/aerobik",
+      "gry komputerowe"
+    ]
+  },
+  {
+    "imię": "Chloe",
+    "nazwisko": "Szewczyk",
+    "miasto": "Staniszcze Małe",
+    "ulica": "Fryderyka Skarbka 27",
+    "dataUrodzenia": "2003-01-23",
+    "zainteresowania": ["malowanie artystyczne", "czytanie", "rzucanie lotkami"]
+  },
+  {
+    "imię": "Justyna",
+    "nazwisko": "Wróblewska",
+    "miasto": "Krosno",
+    "ulica": "Lwa Tołstoja 15",
+    "dataUrodzenia": "2001-10-30",
+    "zainteresowania": ["wyścigi samochodowe", "gotowanie"]
+  },
+  {
+    "imię": "Nestor",
+    "nazwisko": "Podgórski",
+    "miasto": "Lubzina",
+    "ulica": "Koprowa 23",
+    "dataUrodzenia": "2004-12-27",
+    "zainteresowania": ["fotografia", "gry komputerowe"]
+  },
+  {
+    "imię": "Luiza",
+    "nazwisko": "Mucha",
+    "miasto": "Parczew",
+    "ulica": "Witnicka 17",
+    "dataUrodzenia": "2001-09-21",
+    "zainteresowania": ["wyścigi samochodowe", "majsterkowanie"]
+  },
+  {
+    "imię": "Eugeniusz",
+    "nazwisko": "Filipiak",
+    "miasto": "Spychowo",
+    "ulica": "Andrychowska 15",
+    "dataUrodzenia": "2002-05-07",
+    "zainteresowania": ["taniec", "praca przy komputerze", "żeglowanie"]
+  },
+  {
+    "imię": "Konstanty",
+    "nazwisko": "Siwek",
+    "miasto": "Bezrzecze",
+    "ulica": "Jeleniogórska 31",
+    "dataUrodzenia": "2003-10-25",
+    "zainteresowania": ["wspinaczka górska"]
+  },
+  {
+    "imię": "Laurentyna",
+    "nazwisko": "Kozieł",
+    "miasto": "Puszczykowo",
+    "ulica": "Topolowa 7",
+    "dataUrodzenia": "2003-02-21",
+    "zainteresowania": [
+      "sklejanie modeli",
+      "obserwacja ptaków",
+      "szycie",
+      "kolekcjonowanie monet/znaczków"
+    ]
+  },
+  {
+    "imię": "Łucja",
+    "nazwisko": "Krajewska",
+    "miasto": "Wyry",
+    "ulica": "Napoleońska 23",
+    "dataUrodzenia": "2001-08-17",
+    "zainteresowania": ["garncarstwo", "praca ochotnicza", "czytanie"]
+  },
+  {
+    "imię": "Horacy",
+    "nazwisko": "Dąbkowski",
+    "miasto": "Miłki",
+    "ulica": "Adama Haber-Włyńskiego 26",
+    "dataUrodzenia": "2005-01-29",
+    "zainteresowania": ["gotowanie", "astronomia"]
+  },
+  {
+    "imię": "Izydor",
+    "nazwisko": "Śliwa",
+    "miasto": "Mrozy",
+    "ulica": "Emilii Plater 99",
+    "dataUrodzenia": "2004-10-27",
+    "zainteresowania": ["obserwacja ptaków", "gry komputerowe"]
+  },
+  {
+    "imię": "Demetriusz",
+    "nazwisko": "Kubiak",
+    "miasto": "Konotop",
+    "ulica": "Heleny Szafran 32",
+    "dataUrodzenia": "2004-12-08",
+    "zainteresowania": [
+      "praca ochotnicza",
+      "praca przy samochodzie",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Patrycjusz",
+    "nazwisko": "Radomski",
+    "miasto": "Chełmża",
+    "ulica": "Henryka Wieniawskiego 103",
+    "dataUrodzenia": "2003-07-23",
+    "zainteresowania": ["rzucanie lotkami", "obserwacja ptaków"]
+  },
+  {
+    "imię": "Eliasz",
+    "nazwisko": "Czaja",
+    "miasto": "Stopnica",
+    "ulica": "Poli Gojawiczyńskiej 78",
+    "dataUrodzenia": "2001-01-31",
+    "zainteresowania": ["gra w piłkę nożną", "praca ochotnicza"]
+  },
+  {
+    "imię": "Henryka",
+    "nazwisko": "Olejnik",
+    "miasto": "Starogard Gdański",
+    "ulica": "Janosika 93",
+    "dataUrodzenia": "2002-01-28",
+    "zainteresowania": [
+      "praca przy samochodzie",
+      "wytwarzanie mebli",
+      "ćwiczenia gimnastyczne/aerobik"
+    ]
+  },
+  {
+    "imię": "Witalis",
+    "nazwisko": "Kasperek",
+    "miasto": "Zblewo",
+    "ulica": "Skórzewska 61",
+    "dataUrodzenia": "2000-06-21",
+    "zainteresowania": ["praca w drewnie", "elektronika"]
+  },
+  {
+    "imię": "Kleopatra",
+    "nazwisko": "Klimek",
+    "miasto": "Łuków",
+    "ulica": "Świebodzińska 87",
+    "dataUrodzenia": "2001-12-07",
+    "zainteresowania": ["gotowanie", "praca w drewnie"]
+  },
+  {
+    "imię": "Reginald",
+    "nazwisko": "Ptak",
+    "miasto": "Grodziec",
+    "ulica": "Stanisława Dygata 22",
+    "dataUrodzenia": "2000-12-11",
+    "zainteresowania": ["gry komputerowe", "obserwacja ptaków"]
+  },
+  {
+    "imię": "Joachim",
+    "nazwisko": "Marczak",
+    "miasto": "Nowa Wieś Ełcka",
+    "ulica": "Jarosława Maciejewskiego 13",
+    "dataUrodzenia": "2002-03-03",
+    "zainteresowania": ["elektronika", "obserwacja ptaków"]
+  },
+  {
+    "imię": "Adam",
+    "nazwisko": "Drabik",
+    "miasto": "Kąty Opolskie",
+    "ulica": "Miętowa 57",
+    "dataUrodzenia": "2004-12-03",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "kolekcjonowanie monet/znaczków",
+      "żeglowanie",
+      "wyścigi samochodowe"
+    ]
+  },
+  {
+    "imię": "Bruno",
+    "nazwisko": "Siwek",
+    "miasto": "Biłgoraj",
+    "ulica": "Boczowska 88",
+    "dataUrodzenia": "2002-07-31",
+    "zainteresowania": ["ćwiczenia gimnastyczne/aerobik", "sklejanie modeli"]
+  },
+  {
+    "imię": "Adrian",
+    "nazwisko": "Zaręba",
+    "miasto": "Ługwałd",
+    "ulica": "Kurzanoga 55",
+    "dataUrodzenia": "2001-07-01",
+    "zainteresowania": ["praca przy samochodzie", "żeglowanie"]
+  },
+  {
+    "imię": "Konstantyn",
+    "nazwisko": "Furman",
+    "miasto": "Małomice",
+    "ulica": "Forsycjowa 90",
+    "dataUrodzenia": "2001-05-11",
+    "zainteresowania": ["wyścigi samochodowe"]
+  },
+  {
+    "imię": "Larysa",
+    "nazwisko": "Błaszczyk",
+    "miasto": "Łaziska Górne",
+    "ulica": "Gronostajowa 35",
+    "dataUrodzenia": "2000-10-24",
+    "zainteresowania": [
+      "hodowla zwierząt",
+      "gra na instrumentach muzycznych",
+      "gry komputerowe",
+      "rzucanie lotkami"
+    ]
+  },
+  {
+    "imię": "Nina",
+    "nazwisko": "Romanowska",
+    "miasto": "Skępe",
+    "ulica": "Kostrzyńska 51",
+    "dataUrodzenia": "2004-06-01",
+    "zainteresowania": ["praca ochotnicza", "ćwiczenia gimnastyczne/aerobik"]
+  },
+  {
+    "imię": "Walentyna",
+    "nazwisko": "Wieczorek",
+    "miasto": "Kielcza",
+    "ulica": "Longinusa Podbipięty 15",
+    "dataUrodzenia": "2004-05-21",
+    "zainteresowania": ["sklejanie modeli", "rzucanie lotkami"]
+  },
+  {
+    "imię": "Rebeka",
+    "nazwisko": "Muszyńska",
+    "miasto": "Sarbinowo",
+    "ulica": "Pobielska 61",
+    "dataUrodzenia": "2000-12-05",
+    "zainteresowania": [
+      "garncarstwo",
+      "hodowla zwierząt",
+      "taniec",
+      "elektronika"
+    ]
+  },
+  {
+    "imię": "Seweryn",
+    "nazwisko": "Rogowski",
+    "miasto": "Krasne",
+    "ulica": "Marii Rodziewiczówny 35",
+    "dataUrodzenia": "2002-04-07",
+    "zainteresowania": ["gra na instrumentach muzycznych", "szycie"]
+  },
+  {
+    "imię": "Dominik",
+    "nazwisko": "Świątek",
+    "miasto": "Chojna",
+    "ulica": "Stefana Okrzei 81",
+    "dataUrodzenia": "2005-01-17",
+    "zainteresowania": ["kolekcjonowanie monet/znaczków", "majsterkowanie"]
+  },
+  {
+    "imię": "Aleksy",
+    "nazwisko": "Maciejewski",
+    "miasto": "Rozogi",
+    "ulica": "Gustawa Herlinga-Grudzińskiego 104",
+    "dataUrodzenia": "2004-05-04",
+    "zainteresowania": [
+      "rozwiązywanie krzyżówek",
+      "gra na instrumentach muzycznych",
+      "praca w drewnie"
+    ]
+  },
+  {
+    "imię": "Walenty",
+    "nazwisko": "Buczek",
+    "miasto": "Przeźmierowo",
+    "ulica": "Goździkowa 28",
+    "dataUrodzenia": "2002-07-11",
+    "zainteresowania": [
+      "gry komputerowe",
+      "wyścigi samochodowe",
+      "gra w piłkę nożną",
+      "wspinaczka górska"
+    ]
+  },
+  {
+    "imię": "Bibiana",
+    "nazwisko": "Grzelak",
+    "miasto": "Rogoźno",
+    "ulica": "Garncarska 44",
+    "dataUrodzenia": "2004-01-27",
+    "zainteresowania": ["gotowanie", "gra w piłkę nożną"]
+  },
+  {
+    "imię": "Agnieszka",
+    "nazwisko": "Adamczyk",
+    "miasto": "Drzewica",
+    "ulica": "Wilanowska 97",
+    "dataUrodzenia": "2001-08-13",
+    "zainteresowania": [
+      "majsterkowanie",
+      "czytanie",
+      "wytwarzanie mebli",
+      "gotowanie"
+    ]
+  },
+  {
+    "imię": "Nina",
+    "nazwisko": "Ratajczak",
+    "miasto": "Polska Nowa Wieś",
+    "ulica": "Dobrodzieńska 90",
+    "dataUrodzenia": "2004-04-07",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "fotografia",
+      "rozwiązywanie krzyżówek"
+    ]
+  },
+  {
+    "imię": "Gerald",
+    "nazwisko": "Czekaj",
+    "miasto": "Wąwolnica",
+    "ulica": "Czapla 85",
+    "dataUrodzenia": "2001-01-06",
+    "zainteresowania": ["garncarstwo", "sklejanie modeli", "szycie"]
+  },
+  {
+    "imię": "Laurenty",
+    "nazwisko": "Karwowski",
+    "miasto": "Ostróda",
+    "ulica": "Kanclerska 65",
+    "dataUrodzenia": "2002-07-08",
+    "zainteresowania": ["gra na instrumentach muzycznych", "gra w piłkę nożną"]
+  },
+  {
+    "imię": "Igor",
+    "nazwisko": "Miśkiewicz",
+    "miasto": "Chełmno",
+    "ulica": "Wierzbowa 47",
+    "dataUrodzenia": "2004-04-15",
+    "zainteresowania": ["obserwacja ptaków"]
+  },
+  {
+    "imię": "Noemi",
+    "nazwisko": "Domański",
+    "miasto": "Wolbórz",
+    "ulica": "Skrzypowa 13",
+    "dataUrodzenia": "2005-02-28",
+    "zainteresowania": [
+      "ogrodnictwo",
+      "elektronika",
+      "gra na instrumentach muzycznych"
+    ]
+  },
+  {
+    "imię": "Herman",
+    "nazwisko": "Grzybowski",
+    "miasto": "Wojcieszków",
+    "ulica": "Trójpole 94",
+    "dataUrodzenia": "2000-09-10",
+    "zainteresowania": [
+      "praca ochotnicza",
+      "wspinaczka górska",
+      "sklejanie modeli"
+    ]
+  },
+  {
+    "imię": "Jonatan",
+    "nazwisko": "Bagiński",
+    "miasto": "Gryfice",
+    "ulica": "Gładka 24",
+    "dataUrodzenia": "2005-05-20",
+    "zainteresowania": [
+      "hodowla zwierząt",
+      "garncarstwo",
+      "praca przy samochodzie"
+    ]
+  },
+  {
+    "imię": "Lilia",
+    "nazwisko": "Gajewska",
+    "miasto": "Gdów",
+    "ulica": "Franciszka Rylla 80",
+    "dataUrodzenia": "2002-05-06",
+    "zainteresowania": ["gotowanie"]
+  },
+  {
+    "imię": "Maja",
+    "nazwisko": "Kosińska",
+    "miasto": "Pyrzyce",
+    "ulica": "Zachodnia 79",
+    "dataUrodzenia": "2002-10-21",
+    "zainteresowania": [
+      "wspinaczka górska",
+      "wyścigi samochodowe",
+      "praca przy komputerze"
+    ]
+  },
+  {
+    "imię": "Rudolf",
+    "nazwisko": "Trzeciak",
+    "miasto": "Nowy Sącz",
+    "ulica": "Bławatkowa 70",
+    "dataUrodzenia": "2002-04-17",
+    "zainteresowania": [
+      "wędkarstwo",
+      "majsterkowanie",
+      "hodowanie tropikalnych rybek",
+      "gotowanie"
+    ]
+  },
+  {
+    "imię": "Waleria",
+    "nazwisko": "Czarnecka",
+    "miasto": "Śródlesie",
+    "ulica": "Jana Czekanowskiego 99",
+    "dataUrodzenia": "2001-09-05",
+    "zainteresowania": ["majsterkowanie", "garncarstwo"]
+  },
+  {
+    "imię": "Robert",
+    "nazwisko": "Sobczyk",
+    "miasto": "Kazimierz Dolny",
+    "ulica": "Obrzańska 53",
+    "dataUrodzenia": "2001-02-13",
+    "zainteresowania": ["szycie", "sklejanie modeli"]
+  },
+  {
+    "imię": "Wiktoria",
+    "nazwisko": "Sikorska",
+    "miasto": "Nowa Wieś Ełcka",
+    "ulica": "gen. Stanisława Sosabowskiego 31",
+    "dataUrodzenia": "2003-04-21",
+    "zainteresowania": [
+      "malowanie artystyczne",
+      "fotografia",
+      "obserwacja ptaków"
+    ]
+  },
+  {
+    "imię": "Cyryl",
+    "nazwisko": "Filipowicz",
+    "miasto": "Choczewo",
+    "ulica": "Żbikowa 68",
+    "dataUrodzenia": "2004-02-02",
+    "zainteresowania": ["wytwarzanie mebli"]
+  },
+  {
+    "imię": "Jozue",
+    "nazwisko": "Mierzejewski",
+    "miasto": "Gorzów Śląski",
+    "ulica": "Lechicka 56",
+    "dataUrodzenia": "2002-03-01",
+    "zainteresowania": ["czytanie", "majsterkowanie", "ogrodnictwo"]
+  },
+  {
+    "imię": "Izajasz",
+    "nazwisko": "Kopczyński",
+    "miasto": "Kamienica Szlachecka",
+    "ulica": "Kazimierza Jarochowskiego 102",
+    "dataUrodzenia": "2005-02-13",
+    "zainteresowania": ["garncarstwo", "majsterkowanie"]
+  },
+  {
+    "imię": "Oskar",
+    "nazwisko": "Romanowski",
+    "miasto": "Sycewice",
+    "ulica": "Romana Wilkanowicza 65",
+    "dataUrodzenia": "2001-08-11",
+    "zainteresowania": ["ogrodnictwo", "jazda na rowerze", "wspinaczka górska"]
+  },
+  {
+    "imię": "Barbara",
+    "nazwisko": "Dudek",
+    "miasto": "Czerwionka-Leszczyny",
+    "ulica": "Wincentego Styczyńskiego 13",
+    "dataUrodzenia": "2004-12-13",
+    "zainteresowania": [
+      "hodowanie tropikalnych rybek",
+      "praca przy samochodzie",
+      "gry komputerowe"
+    ]
+  },
+  {
+    "imię": "Hugo",
+    "nazwisko": "Tomczyk",
+    "miasto": "Wałcz",
+    "ulica": "Księżycowa 29",
+    "dataUrodzenia": "2004-02-21",
+    "zainteresowania": [
+      "praca przy komputerze",
+      "czytanie",
+      "obserwacja ptaków",
+      "garncarstwo"
+    ]
+  },
+  {
+    "imię": "Abraham",
+    "nazwisko": "Matuszak",
+    "miasto": "Nowy Świętów",
+    "ulica": "Augusta Cieszkowskiego 84",
+    "dataUrodzenia": "2002-12-25",
+    "zainteresowania": [
+      "kolekcjonowanie monet/znaczków",
+      "wytwarzanie mebli",
+      "garncarstwo"
+    ]
+  },
+  {
+    "imię": "Liliana",
+    "nazwisko": "Wilczyńska",
+    "miasto": "Strzegom",
+    "ulica": "Mgielna 65",
+    "dataUrodzenia": "2004-10-06",
+    "zainteresowania": ["taniec"]
+  },
+  {
+    "imię": "Patrycjusz",
+    "nazwisko": "Czekaj",
+    "miasto": "Ożarów Mazowiecki",
+    "ulica": "Nad Przeźmierką 89",
+    "dataUrodzenia": "2003-01-06",
+    "zainteresowania": ["astronomia"]
+  },
+  {
+    "imię": "Eustracjusz",
+    "nazwisko": "Skowron",
+    "miasto": "Podegrodzie",
+    "ulica": "Złocieniowa 41",
+    "dataUrodzenia": "2000-06-26",
+    "zainteresowania": ["kolekcjonowanie monet/znaczków", "taniec"]
+  },
+  {
+    "imię": "Estera",
+    "nazwisko": "Lisowska",
+    "miasto": "Suwałki",
+    "ulica": "Leszczyńska 49",
+    "dataUrodzenia": "2002-06-08",
+    "zainteresowania": [
+      "ćwiczenia gimnastyczne/aerobik",
+      "wędkarstwo",
+      "astronomia"
+    ]
+  },
+  {
+    "imię": "Antoni",
+    "nazwisko": "Mróz",
+    "miasto": "Biskupiec",
+    "ulica": "Lucyny Sieciechowiczowej 59",
+    "dataUrodzenia": "2005-04-11",
+    "zainteresowania": ["garncarstwo", "jazda na rowerze"]
+  },
+  {
+    "imię": "Ryszard",
+    "nazwisko": "Adamek",
+    "miasto": "Maszewo",
+    "ulica": "Nieszawska 67",
+    "dataUrodzenia": "2004-07-13",
+    "zainteresowania": [
+      "elektronika",
+      "praca przy samochodzie",
+      "jazda na rowerze",
+      "taniec"
+    ]
+  },
+  {
+    "imię": "Ignacy",
+    "nazwisko": "Bielski",
+    "miasto": "Brześć Kujawski",
+    "ulica": "Sławomira 61",
+    "dataUrodzenia": "2001-07-08",
+    "zainteresowania": ["czytanie", "wytwarzanie mebli", "gotowanie"]
+  },
+  {
+    "imię": "Hanna",
+    "nazwisko": "Brzozowska",
+    "miasto": "Brzeziny",
+    "ulica": "Macieja Rataja 18",
+    "dataUrodzenia": "2002-03-30",
+    "zainteresowania": [
+      "elektronika",
+      "sklejanie modeli",
+      "wyścigi samochodowe",
+      "wędkarstwo"
+    ]
+  }
+]

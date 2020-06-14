@@ -13,14 +13,15 @@ console.log(workingDir);
 
 const webpackConfig = (mode) => ({
   devtool: mode === "production" ? "none" : "source-map",
-  entry: workingDir + "/src/index.js",
+  entry: workingDir + "/src/script.js",
   output: {
     path: outputDir,
-    filename: "bundle.js"
+    filename: "script.js"
   },
   mode,
   plugins: [new HtmlWebpackPlugin({
-    template: 'src/index.html'
+    template: 'src/index.html',
+
   })],
   module: {
     rules: [{
@@ -52,7 +53,7 @@ if (args[0] === "start") {
 
 if (args[0] === "build") {
   console.log("Buduję aplikację...");
-  require('fs').rmdirSync(outputDir, {recursive: true});
+  require('fs-extra').removeSync(outputDir);
   webpack(webpackConfig("development")).run((e, s) => {
     console.log("Zbudowano!");
   })
