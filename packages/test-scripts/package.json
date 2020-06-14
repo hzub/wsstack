@@ -1,7 +1,7 @@
 {
   "name": "test-scripts",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "dependencies": {
     "wowschool-www-scripts": "0.1.0"

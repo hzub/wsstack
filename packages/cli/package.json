@@ -1,6 +1,6 @@
 {
   "name": "wowdroid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "bin": "./index.js",
   "license": "MIT"
 }
