@@ -122,7 +122,7 @@ const run = async () => {
       {
         contentBase: path.resolve(workingDir, "./src"),
         watchContentBase: true,
-        //open: true,
+        open: true,
         clientLogLevel: "none",
         quiet: true,
         publicPath: "/",
