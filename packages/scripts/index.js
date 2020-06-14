@@ -13,6 +13,9 @@ const fse = require("fs-extra");
 const archiver = require("archiver");
 const ErrorOverlayPlugin = require("error-overlay-webpack-plugin");
 const chalk = require("chalk");
+const detectPort = require("detect-port");
+
+const DEV_PORT = 3000;
 
 const workingDir = path.resolve(process.cwd());
 const inputDir = path.resolve(workingDir, "./src");
@@ -112,18 +115,27 @@ const run = async () => {
       return;
     }
 
+    const targetPort = await detectPort(DEV_PORT);
+
     const server = new DevServer(
       webpack(webpackConfig(sources, "development")),
       {
         contentBase: path.resolve(workingDir, "./src"),
         watchContentBase: true,
-        open: true,
-        clientLogLevel: "silent",
+        //open: true,
+        clientLogLevel: "none",
         quiet: true,
         publicPath: "/",
+        onListening: () => {
+          logMessage(
+            `Aplikacja w trybie deweloperskim uruchomiona! Wejdź na ${chalk.whiteBright(
+              `http://localhost:${targetPort}/`
+            )} w przeglądarce by zobaczyć stronę.`
+          );
+        },
       }
     );
-    server.listen(3000, () => {});
+    server.listen(targetPort, () => {});
   }
 
   if (args[0] === "build") {
