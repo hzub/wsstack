@@ -2,5 +2,13 @@
   "name": "wowdroid",
   "version": "0.0.4",
   "bin": "./index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "case": "^1.6.3",
+    "chalk": "^4.1.0",
+    "cli-spinner": "^0.2.10",
+    "cli-spinners": "^2.3.0",
+    "ora": "^4.0.4",
+    "yargs": "^15.3.1"
+  }
 }
