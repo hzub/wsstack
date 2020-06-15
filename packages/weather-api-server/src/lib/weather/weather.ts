@@ -1,4 +1,4 @@
-import { format } from "date-fns";
+import { format, utcToZonedTime } from "date-fns-tz";
 
 export const transformTemperature = (source: number) =>
   parseFloat((source - 273.15).toFixed(1));
@@ -28,8 +28,14 @@ export const transformWindSpeed = (sourceMps: number) => {
   return parseFloat(((sourceMps / 1000) * 3600).toFixed(1));
 };
 
+export const prepareCachePayload = (apiData: any) => ({
+  updated: new Date().toISOString(),
+  ...apiData,
+});
+
 export const transformForecast = (source: any) => {
-  const { current, daily } = source;
+  const updated = source.time;
+  const { current, daily } = source.data;
 
   const getWeatherBlock = (sourceBlock: any) => ({
     temperatura: transformTemperature(
@@ -43,11 +49,21 @@ export const transformForecast = (source: any) => {
     opis: sourceBlock.weather[0].description,
     ikonka: transformIcon(sourceBlock.weather[0].icon),
     zachmurzenie: sourceBlock.clouds,
-    wschódSłońca: format(sourceBlock.sunrise * 1000, "hh:mm"),
-    zachódSłońca: format(sourceBlock.sunset * 1000, "HH:mm"),
+    wschódSłońca: format(
+      utcToZonedTime(sourceBlock.sunrise * 1000, "Europe/Warsaw"),
+      "HH:mm"
+    ),
+    zachódSłońca: format(
+      utcToZonedTime(sourceBlock.sunset * 1000, "Europe/Warsaw"),
+      "HH:mm"
+    ),
   });
 
   return {
+    aktualizacja: format(
+      utcToZonedTime(updated, "Europe/Warsaw"),
+      "yyyy-MM-dd HH:mm"
+    ),
     teraz: getWeatherBlock(current),
     prognoza: {
       dziś: getWeatherBlock(daily[0]),

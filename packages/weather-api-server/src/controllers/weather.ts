@@ -65,9 +65,9 @@ export const weatherController = (app: Express) => {
         if (
           Math.abs(
             differenceInMinutes(new Date(cachedValue.time), new Date())
-          ) < 120
+          ) < 30
         ) {
-          sendFormattedJSONResponse(res, transformForecast(cachedValue.cache));
+          sendFormattedJSONResponse(res, transformForecast(cachedValue));
           return;
         }
       }
@@ -82,11 +82,11 @@ export const weatherController = (app: Express) => {
 
       const newCache = {
         time: new Date().toISOString(),
-        cache: apiData,
+        data: apiData,
       };
 
       fs.writeFileSync(cachePath, JSON.stringify(newCache));
-      sendFormattedJSONResponse(res, transformForecast(apiData));
+      sendFormattedJSONResponse(res, transformForecast(newCache));
     }
   );
 };
