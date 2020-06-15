@@ -129,5 +129,11 @@ const run = () => {
 };
 
 console.log();
+logMessage(
+  chalk.greenBright(
+    `${chalk.whiteBright("Wow School")} przedstawia: ${chalk.yellowBright(
+      `WowDroid (${require("./package.json").version})`
+    )}`
+  )
+);
 run();
-console.log();
