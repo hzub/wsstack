@@ -4,6 +4,8 @@ import Cloudfront from "aws-sdk/clients/cloudfront";
 import mime from "mime-types";
 import yauzl from "yauzl-promise";
 
+import iconv from "iconv-lite";
+
 const s3 = new S3();
 const cloudfront = new Cloudfront();
 
@@ -15,18 +17,26 @@ const config = {
   DISTRIBUTION_ID,
 };
 
+const yauzlOptions: yauzl.Options = {
+  decodeStrings: false,
+};
+
 const getFilenameList = async (inputFile: string | Buffer) => {
   const zipFile =
     typeof inputFile === "string"
-      ? await yauzl.open(inputFile)
-      : await yauzl.fromBuffer(inputFile);
+      ? await yauzl.open(inputFile, yauzlOptions)
+      : await yauzl.fromBuffer(inputFile, yauzlOptions);
 
   const fileNames: string[] = [];
   await zipFile.walkEntries(async (entry) => {
-    if (entry.fileName[entry.fileName.length - 1] === "/") {
+    const entryFileName = iconv.decode(
+      (entry.fileName as unknown) as Buffer,
+      "UTF8"
+    );
+    if (entryFileName[entryFileName.length - 1] === "/") {
       return;
     }
-    fileNames.push(entry.fileName);
+    fileNames.push(entryFileName);
   });
   await zipFile.close();
   return fileNames;
@@ -59,10 +69,6 @@ const normalizeCommonPrefix: (strings: string[]) => { [k: string]: string } = (
       [sourceFilename]: newFilename,
     };
   }, {});
-
-  return strings
-    .map((s) => s.substr(commonPart.length))
-    .map((s) => (s[0] === "/" ? s.substr(1) : s));
 };
 
 export const extractUploadZip = async (
@@ -74,13 +80,18 @@ export const extractUploadZip = async (
 
   const zipFile =
     typeof inputFile === "string"
-      ? await yauzl.open(inputFile)
-      : await yauzl.fromBuffer(inputFile);
+      ? await yauzl.open(inputFile, yauzlOptions)
+      : await yauzl.fromBuffer(inputFile, yauzlOptions);
 
   const promises: Promise<any>[] = [];
 
   await zipFile.walkEntries(async (entry) => {
-    if (entry.fileName[entry.fileName.length - 1] === "/") {
+    const entryFileName = iconv.decode(
+      (entry.fileName as unknown) as Buffer,
+      "UTF8"
+    );
+
+    if (entryFileName[entryFileName.length - 1] === "/") {
       return;
     }
 
@@ -91,20 +102,20 @@ export const extractUploadZip = async (
     promises.push(
       new Promise((fileResolve, fileReject) => {
         const normalizedFileName =
-          normalizedFilePaths[entry.fileName] || entry.fileName;
+          normalizedFilePaths[entryFileName] || entryFileName;
         s3.putObject(
           {
             Bucket: config.BUCKET_NAME,
             Key: "students/" + folderName + "/" + normalizedFileName,
             Body: fileStream,
-            ContentType: mime.lookup(entry.fileName) || "text/plain",
+            ContentType: mime.lookup(entryFileName) || "text/plain",
           },
           function (err) {
             if (err) {
               console.log("Error during upload: ", err);
               fileReject(err);
             }
-            console.log("Sent file:", entry.fileName, "as", normalizedFileName);
+            console.log("Sent file:", entryFileName, "as", normalizedFileName);
             fileResolve();
           }
         );

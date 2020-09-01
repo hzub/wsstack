@@ -4,15 +4,15 @@ export const transformTemperature = (source: number) =>
   parseFloat((source - 273.15).toFixed(1));
 
 const ICONS: { [k: string]: string } = {
-  "01": "słońce",
-  "02": "chmury1",
-  "03": "chmury2",
-  "04": "chmury3",
-  "09": "deszcz1",
-  "10": "deszcz2",
-  "11": "deszcz3",
-  "13": "śnieg",
-  "50": "mgła",
+  "01": "slonce", // cale słońce
+  "02": "chmury1", // słońce za chmurami
+  "03": "chmury2", // małe chmury
+  "04": "chmury3", // duże chmury
+  "09": "deszcz1", // mały deszcz
+  "10": "deszcz2", // wielki deszcz
+  "11": "burza", // burza
+  "13": "snieg", // śnieg
+  "50": "mgla", // mgła
 };
 
 export const transformIcon = (source: string) => {
@@ -33,7 +33,7 @@ export const prepareCachePayload = (apiData: any) => ({
   ...apiData,
 });
 
-export const transformForecast = (source: any) => {
+export const transformForecast = (source: any, cityName: string) => {
   const updated = source.time;
   const { current, daily } = source.data;
 
@@ -60,6 +60,7 @@ export const transformForecast = (source: any) => {
   });
 
   return {
+    miasto: cityName,
     aktualizacja: format(
       utcToZonedTime(updated, "Europe/Warsaw"),
       "yyyy-MM-dd HH:mm"

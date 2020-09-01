@@ -45,12 +45,21 @@ const parseHtml = (filePath) =>
     }
   });
 
-const webpackConfig = (sources, mode) => ({
-  devtool: mode === "production" ? "none" : "source-map",
-  entry: sources.reduce(
+const createSources = (sources) => {
+  const ensuredSources = sources.reduce(
     (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
     {}
-  ),
+  );
+  if (Object.keys(ensuredSources).length < 1) {
+    return { main: "empty" };
+  }
+
+  return ensuredSources;
+};
+
+const webpackConfig = (sources, mode) => ({
+  devtool: mode === "production" ? "none" : "source-map",
+  entry: createSources(sources),
   output: {
     path: outputDir,
     filename: "[name]",

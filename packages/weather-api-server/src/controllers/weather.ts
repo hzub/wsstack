@@ -67,7 +67,10 @@ export const weatherController = (app: Express) => {
             differenceInMinutes(new Date(cachedValue.time), new Date())
           ) < 30
         ) {
-          sendFormattedJSONResponse(res, transformForecast(cachedValue));
+          sendFormattedJSONResponse(
+            res,
+            transformForecast(cachedValue, matchedCity.nazwa)
+          );
           return;
         }
       }
@@ -86,7 +89,10 @@ export const weatherController = (app: Express) => {
       };
 
       fs.writeFileSync(cachePath, JSON.stringify(newCache));
-      sendFormattedJSONResponse(res, transformForecast(newCache));
+      sendFormattedJSONResponse(
+        res,
+        transformForecast(newCache, matchedCity.nazwa)
+      );
     }
   );
 };
