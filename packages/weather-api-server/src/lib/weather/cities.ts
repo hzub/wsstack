@@ -2,15 +2,9 @@ import { ICity } from "../types";
 
 export const getCities: () => ICity[] = () => [
   { nazwa: "Białystok", geo: { szerokość: 53.13, długość: 23.15 } },
-  { nazwa: "Tarnów", geo: { szerokość: 50.0121, długość: 20.985842 } },
-  { nazwa: "Sosnowiec", geo: { szerokość: 50.286263, długość: 19.104078 } },
-  {
-    nazwa: "Tarnowskie Góry",
-    geo: { szerokość: 50.435947, długość: 18.846025 },
-  },
   { nazwa: "Poznań", geo: { szerokość: 52.406376, długość: 16.925167 } },
   { nazwa: "Toruń", geo: { szerokość: 53.01379, długość: 18.598444 } },
-  { nazwa: "Zielona Gora", geo: { szerokość: 51.935619, długość: 15.506186 } },
+  { nazwa: "Zielona Góra", geo: { szerokość: 51.935619, długość: 15.506186 } },
   { nazwa: "Szczecin", geo: { szerokość: 53.428543, długość: 14.552812 } },
   { nazwa: "Rzeszów", geo: { szerokość: 50.041187, długość: 21.999121 } },
   { nazwa: "Kraków", geo: { szerokość: 50.049683, długość: 19.944544 } },

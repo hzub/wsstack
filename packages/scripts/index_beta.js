@@ -45,12 +45,21 @@ const parseHtml = (filePath) =>
     }
   });
 
-const webpackConfig = (sources, mode) => ({
-  devtool: mode === "production" ? "none" : "source-map",
-  entry: sources.reduce(
+const createSources = (sources) => {
+  const ensuredSources = sources.reduce(
     (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
     {}
-  ),
+  );
+  if (Object.keys(ensuredSources).length < 1) {
+    return { main: "empty" };
+  }
+
+  return ensuredSources;
+};
+
+const webpackConfig = (sources, mode) => ({
+  devtool: mode === "production" ? "none" : "source-map",
+  entry: createSources(sources),
   output: {
     path: outputDir,
     filename: "[name]",
@@ -78,17 +87,6 @@ const webpackConfig = (sources, mode) => ({
   },
 });
 
-const isUrl = (testString) => {
-  if (typeof testString !== "string") {
-    return false;
-  }
-  return Boolean(
-    /^(?:https?)?:\/\/[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,4}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/.test(
-      testString.trim()
-    )
-  );
-};
-
 const getScriptSrcsList = (DOM) => {
   return DOM.getElementsByTagName("script")
     .map((a) => {
@@ -97,8 +95,7 @@ const getScriptSrcsList = (DOM) => {
         return srcAttr.value;
       }
     })
-    .filter(Boolean)
-    .filter((srcName) => !isUrl(srcName));
+    .filter(Boolean);
 };
 
 const zipDirectory = () => {
