@@ -1,10 +1,10 @@
 {
   "name": "test-scripts",
   "private": true,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "MIT",
   "dependencies": {
-    "wowschool-www-scripts": "^0.4.0"
+    "wowschool-www-scripts": "^0.5.0"
   },
   "scripts": {
     "start": "wowschool-www-scripts start",
