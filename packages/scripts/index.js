@@ -5,6 +5,7 @@ const webpack = require("webpack");
 const path = require("path");
 const fs = require("fs");
 const DevServer = require("webpack-dev-server");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const babelLoader = require("babel-loader");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const DomParser = require("dom-parser");
@@ -45,38 +46,55 @@ const parseHtml = (filePath) =>
     }
   });
 
-const webpackConfig = (sources, mode) => ({
-  devtool: mode === "production" ? "none" : "source-map",
-  entry: sources.reduce(
-    (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
-    {}
-  ),
-  output: {
-    path: outputDir,
-    filename: "[name]",
-    publicPath: "/",
-  },
-  mode,
-  plugins: [new ErrorOverlayPlugin()],
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: require.resolve("babel-loader"),
-          options: {
-            highlightCode: mode === "production",
-            presets: [require.resolve("@babel/preset-env")],
-            plugins: [
-              require.resolve("@babel/plugin-proposal-object-rest-spread"),
-            ],
+const webpackConfig = (sources, mode) => {
+  return {
+    devtool: mode === "production" ? "none" : "source-map",
+    entry: sources.reduce(
+      (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
+      {}
+    ),
+    output: {
+      path: outputDir,
+      filename: "[name]",
+      publicPath: "/",
+    },
+    mode,
+    plugins: [new ErrorOverlayPlugin(), new MiniCssExtractPlugin()],
+    module: {
+      rules: [
+        {
+          test: /\.scss$/,
+          exclude: /node_modules/,
+          use: [
+            {
+              loader: require.resolve("style-loader"),
+            },
+            {
+              loader: require.resolve("css-loader"),
+            },
+            {
+              loader: require.resolve("sass-loader"),
+            },
+          ],
+        },
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          use: {
+            loader: require.resolve("babel-loader"),
+            options: {
+              highlightCode: mode === "production",
+              presets: [require.resolve("@babel/preset-env")],
+              plugins: [
+                require.resolve("@babel/plugin-proposal-object-rest-spread"),
+              ],
+            },
           },
         },
-      },
-    ],
-  },
-});
+      ],
+    },
+  };
+};
 
 const isUrl = (testString) => {
   if (typeof testString !== "string") {

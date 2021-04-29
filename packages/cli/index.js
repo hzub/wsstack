@@ -5,7 +5,6 @@ const path = require("path");
 const fs = require("fs");
 const caseJs = require("case");
 const { spawn } = require("child_process");
-// const spawn = require("cross-spawn");
 const ora = require("ora");
 
 const {
