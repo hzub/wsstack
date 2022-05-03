@@ -4,6 +4,7 @@ import { peopleController } from "./controllers/people";
 import { uploadController } from "./controllers/upload";
 import { weatherController } from "./controllers/weather";
 import { generalController } from "./controllers/general";
+import { studiaController } from "./controllers/studia";
 
 const ensureEnv = (k: string) => {
   if (!process.env[k]) {
@@ -22,6 +23,7 @@ const setup = () => {
   uploadController(app);
   peopleController(app);
   generalController(app);
+  studiaController(app);
 
   app.listen(process.env.PORT || 80);
 };

@@ -11,6 +11,11 @@ export const sendFormattedJSONResponse = (res: Response, val: any) => {
   res.send(JSON.stringify(val, null, 4));
 };
 
+export const sendTextResponse = (res: Response, val: string) => {
+  res.header("Content-Type", "text/plain");
+  res.send(val);
+};
+
 export const sendHTMLResponse = (res: Response, val: string) => {
   res.header("Content-Type", "text/html");
   res.send(val);

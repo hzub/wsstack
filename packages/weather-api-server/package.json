@@ -12,6 +12,7 @@
     "@types/mime-types": "^2.1.0",
     "@types/node": "^14.0.13",
     "@types/yauzl-promise": "^2.1.0",
+    "abab": "^2.0.6",
     "aws-sdk": "^2.696.0",
     "axios": "^0.19.2",
     "case": "^1.6.3",

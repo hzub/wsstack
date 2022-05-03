@@ -15,6 +15,7 @@ const archiver = require("archiver");
 const ErrorOverlayPlugin = require("error-overlay-webpack-plugin");
 const chalk = require("chalk");
 const detectPort = require("detect-port");
+const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin');
 
 const DEV_PORT = 3000;
 
@@ -46,20 +47,49 @@ const parseHtml = (filePath) =>
     }
   });
 
+const getSources = (sources) => {
+  const initialObject = {};
+  if (sources.length < 1) {
+    if (!fs.existsSync(`${inputDir}/script.js`)) {
+      fs.writeFileSync(`${inputDir}/script.js`, '');
+    }
+    initialObject.script = `${inputDir}/script.js`;
+  }
+
+  return sources.reduce(
+    (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
+    initialObject
+  );
+}
+
+const getFilesToExtraWatch = (sources) => {
+  if (sources.length > 0) {
+    return [];
+  }
+
+  console.log([`${inputDir}/index.html`, `${inputDir}/**/*.css`, `${inputDir}/**/*.scss`]);
+
+  return [`${inputDir}/index.html`, `${inputDir}/**/*.css`, `${inputDir}/**/*.scss`];
+}
+
 const webpackConfig = (sources, mode) => {
   return {
     devtool: mode === "production" ? "none" : "source-map",
-    entry: sources.reduce(
-      (acc, src) => ({ ...acc, [src]: `${workingDir}/src/${src}` }),
-      {}
-    ),
+    entry: getSources(sources),
     output: {
       path: outputDir,
       filename: "[name]",
       publicPath: "/",
     },
     mode,
-    plugins: [new ErrorOverlayPlugin(), new MiniCssExtractPlugin()],
+    plugins: [
+      new ErrorOverlayPlugin(),
+      new MiniCssExtractPlugin(),
+      new ExtraWatchWebpackPlugin({
+        files: getFilesToExtraWatch(sources)
+      }),
+
+    ],
     module: {
       rules: [
         {
@@ -165,7 +195,7 @@ const run = async () => {
         },
       }
     );
-    server.listen(targetPort, () => {});
+    server.listen(targetPort, () => { });
   }
 
   if (args[0] === "build") {

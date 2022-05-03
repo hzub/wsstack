@@ -30,7 +30,7 @@ const getFilenameList = async (inputFile: string | Buffer) => {
   const fileNames: string[] = [];
   await zipFile.walkEntries(async (entry) => {
     const entryFileName = iconv.decode(
-      (entry.fileName as unknown) as Buffer,
+      entry.fileName as unknown as Buffer,
       "UTF8"
     );
     if (entryFileName[entryFileName.length - 1] === "/") {
@@ -87,7 +87,7 @@ export const extractUploadZip = async (
 
   await zipFile.walkEntries(async (entry) => {
     const entryFileName = iconv.decode(
-      (entry.fileName as unknown) as Buffer,
+      entry.fileName as unknown as Buffer,
       "UTF8"
     );
 
@@ -100,7 +100,7 @@ export const extractUploadZip = async (
     // @ts-ignore
     fileStream.length = entry.uncompressedSize;
     promises.push(
-      new Promise((fileResolve, fileReject) => {
+      new Promise<void>((fileResolve, fileReject) => {
         const normalizedFileName =
           normalizedFilePaths[entryFileName] || entryFileName;
         s3.putObject(
@@ -125,7 +125,7 @@ export const extractUploadZip = async (
 
   await Promise.all(promises);
 
-  return new Promise((resolve, reject) => {
+  return new Promise<void>((resolve, reject) => {
     cloudfront.createInvalidation(
       {
         DistributionId: config.DISTRIBUTION_ID,
