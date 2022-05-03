@@ -11,7 +11,7 @@ export type IEndpointQueryPrognoza = {
 };
 
 export type IEndpointQueryLudzie = {
-  imię?: string;
+  imie?: string;
   nazwisko?: string;
   zainteresowania?: string;
 };

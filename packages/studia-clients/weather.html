@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo fetch()</title>
+  </head>
+  <body>
+    <button id="przycisk">Pobierz prognozę pogody!</button>
+    <h2>Pogoda aktualna</h2>
+    <div class="pogodaAktualna">
+      <div>Temperatura: <span class="temp"></span></div>
+      <div>Zachmurzenie: <span class="zachmurzenie"></span></div>
+    </div>
+    <h2>Prognoza na jutro</h2>
+    <div class="pogodaJutro">
+      <div>Temperatura: <span class="temp"></span></div>
+      <div>Zachmurzenie: <span class="zachmurzenie"></span></div>
+    </div>
+
+    <script>
+      let elementDzisTemp = document.querySelector(".pogodaAktualna .temp");
+      let elementDzisZachmurzenie = document.querySelector(".pogodaAktualna .zachmurzenie");
+
+      let elementJutroTemp = document.querySelector(".pogodaJutro .temp");
+      let elementJutroZachmurzenie = document.querySelector(".pogodaJutro .zachmurzenie");
+
+      let elementPrzycisk = document.querySelector("#przycisk");
+
+      function pobierzDane() {
+        // ...
+      }
+
+      document.querySelector("#przycisk").addEventListener("click", pobierzDane);
+    </script>
+  </body>
+</html>

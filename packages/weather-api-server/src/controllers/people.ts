@@ -14,12 +14,12 @@ const randomElement = <T>(array: T[]): T =>
 
 export const peopleController = (app: Express) => {
   app.get<any, any, any, IEndpointQueryLudzie>("/ludzie", (req, res) => {
-    if (req.query.imię) {
-      const queryName = req.query.imię;
+    if (req.query.imie) {
+      const queryName = req.query.imie;
       sendFormattedJSONResponse(
         res,
         ludzie.filter(
-          (l) => l.imię.toLowerCase().indexOf(queryName.toLowerCase()) === 0
+          (l) => l.imie.toLowerCase().indexOf(queryName.toLowerCase()) === 0
         )
       );
     }
@@ -61,7 +61,7 @@ export const generatePeople = (limit: number = 200) => {
     const name = faker.name.firstName();
     const gender = name[name.length - 1] === "a" ? "F" : "M";
     const person = {
-      imię: name,
+      imie: name,
       nazwisko:
         gender === "M" ? faker.name.lastName() : randomElement(nazwiskaZenskie),
       miasto: randomElement(miasta),

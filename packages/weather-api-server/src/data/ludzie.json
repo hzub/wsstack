@@ -1,6 +1,6 @@
 [
   {
-    "imię": "Teresa",
+    "imie": "Teresa",
     "nazwisko": "Mróz",
     "miasto": "Jarocin",
     "ulica": "Poetycka 56",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "imię": "Oliwier",
+    "imie": "Oliwier",
     "nazwisko": "Kruk",
     "miasto": "Nowogrodziec",
     "ulica": "Nieszawska 59",
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "imię": "Anna",
+    "imie": "Anna",
     "nazwisko": "Mazurkiewicz",
     "miasto": "Karpacz",
     "ulica": "Smolna 40",
@@ -33,7 +33,7 @@
   },
 
   {
-    "imię": "Cecylia",
+    "imie": "Cecylia",
     "nazwisko": "Kozłowska",
     "miasto": "Brzostek",
     "ulica": "Zawiertowska 102",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "imię": "Jeremiasz",
+    "imie": "Jeremiasz",
     "nazwisko": "Kaczyński",
     "miasto": "Buk",
     "ulica": "Łąkowa 91",
@@ -54,7 +54,7 @@
     "zainteresowania": ["fotografia", "kolekcjonowanie monet/znaczków"]
   },
   {
-    "imię": "Hubert",
+    "imie": "Hubert",
     "nazwisko": "Izdebski",
     "miasto": "Dębogórze",
     "ulica": "Stanisława Wigury 54",
@@ -62,7 +62,7 @@
     "zainteresowania": ["wyścigi samochodowe"]
   },
   {
-    "imię": "Eudokia",
+    "imie": "Eudokia",
     "nazwisko": "Wiśniewska",
     "miasto": "Strzebielino Osiedle",
     "ulica": "Rokietnicka 90",
@@ -70,7 +70,7 @@
     "zainteresowania": ["wyścigi samochodowe"]
   },
   {
-    "imię": "Oliwier",
+    "imie": "Oliwier",
     "nazwisko": "Kowalczuk",
     "miasto": "Sztabin",
     "ulica": "Mrzeżyńska 74",
@@ -78,7 +78,7 @@
     "zainteresowania": ["praca w drewnie", "hodowla zwierząt"]
   },
   {
-    "imię": "Demetriusz",
+    "imie": "Demetriusz",
     "nazwisko": "Strzelczyk",
     "miasto": "Rawa Mazowiecka",
     "ulica": "Józefa Dowbora-Muśnickiego 62",
@@ -86,7 +86,7 @@
     "zainteresowania": ["szycie", "hodowanie tropikalnych rybek"]
   },
   {
-    "imię": "Teresa",
+    "imie": "Teresa",
     "nazwisko": "Kozieł",
     "miasto": "Bieruń",
     "ulica": "Polska 63",
@@ -94,7 +94,7 @@
     "zainteresowania": ["rzucanie lotkami", "rozwiązywanie krzyżówek"]
   },
   {
-    "imię": "Ksawera",
+    "imie": "Ksawera",
     "nazwisko": "Szczepańska",
     "miasto": "Brodnica",
     "ulica": "Przełajowa 87",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "imię": "Igor",
+    "imie": "Igor",
     "nazwisko": "Matuszewski",
     "miasto": "Rokiciny-Kolonia",
     "ulica": "Karawelowa 89",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "imię": "Marek",
+    "imie": "Marek",
     "nazwisko": "Ślusarczyk",
     "miasto": "Knurów",
     "ulica": "Antoniego Małeckiego 12",
@@ -128,7 +128,7 @@
     "zainteresowania": ["jazda na rowerze", "ćwiczenia gimnastyczne/aerobik"]
   },
   {
-    "imię": "Jerzy",
+    "imie": "Jerzy",
     "nazwisko": "Antczak",
     "miasto": "Koźmin Wielkopolski",
     "ulica": "Obrzeże 100",
@@ -136,7 +136,7 @@
     "zainteresowania": ["kolekcjonowanie monet/znaczków"]
   },
   {
-    "imię": "Magnus",
+    "imie": "Magnus",
     "nazwisko": "Rogala",
     "miasto": "Iwaniska",
     "ulica": "Szadecka 25",
@@ -144,7 +144,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "jazda na rowerze"]
   },
   {
-    "imię": "Edgar",
+    "imie": "Edgar",
     "nazwisko": "Piątek",
     "miasto": "Murów",
     "ulica": "Żywocicka 85",
@@ -152,7 +152,7 @@
     "zainteresowania": ["gry komputerowe"]
   },
   {
-    "imię": "Klara",
+    "imie": "Klara",
     "nazwisko": "Bednarek",
     "miasto": "Piekoszów",
     "ulica": "Stolarska 63",
@@ -160,7 +160,7 @@
     "zainteresowania": ["garncarstwo", "rozwiązywanie krzyżówek"]
   },
   {
-    "imię": "Gonsalwy",
+    "imie": "Gonsalwy",
     "nazwisko": "Szafrański",
     "miasto": "Dobrzykowice",
     "ulica": "Emilii Sczanieckiej 18",
@@ -168,7 +168,7 @@
     "zainteresowania": ["hodowanie tropikalnych rybek", "wytwarzanie mebli"]
   },
   {
-    "imię": "Joachim",
+    "imie": "Joachim",
     "nazwisko": "Frączek",
     "miasto": "Leżajsk",
     "ulica": "Orzechowa 82",
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "imię": "Lucjan",
+    "imie": "Lucjan",
     "nazwisko": "Raczyński",
     "miasto": "Pasym",
     "ulica": "Homera 100",
@@ -189,7 +189,7 @@
     "zainteresowania": ["jazda na rowerze", "garncarstwo", "astronomia"]
   },
   {
-    "imię": "Ewa",
+    "imie": "Ewa",
     "nazwisko": "Skowrońska",
     "miasto": "Chrzanów",
     "ulica": "Słubicka 42",
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "imię": "Konstancja",
+    "imie": "Konstancja",
     "nazwisko": "Czech",
     "miasto": "Pieniężno",
     "ulica": "Pasłęcka 84",
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "imię": "Zygmunt",
+    "imie": "Zygmunt",
     "nazwisko": "Izdebski",
     "miasto": "Narzym",
     "ulica": "Kazimierza Brossa 36",
@@ -222,7 +222,7 @@
     "zainteresowania": ["czytanie", "obserwacja ptaków", "wspinaczka górska"]
   },
   {
-    "imię": "—",
+    "imie": "—",
     "nazwisko": "Szeląg",
     "miasto": "Korfantów",
     "ulica": "Cerekwicka 71",
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "imię": "Izabela",
+    "imie": "Izabela",
     "nazwisko": "Wolska",
     "miasto": "Chodel",
     "ulica": "Kazimierza Jarochowskiego 74",
@@ -242,7 +242,7 @@
     "zainteresowania": ["fotografia", "garncarstwo", "astronomia"]
   },
   {
-    "imię": "Amabela",
+    "imie": "Amabela",
     "nazwisko": "Sikora",
     "miasto": "Terespol",
     "ulica": "Połabska 59",
@@ -250,7 +250,7 @@
     "zainteresowania": ["czytanie"]
   },
   {
-    "imię": "Nadzieja",
+    "imie": "Nadzieja",
     "nazwisko": "Domagała",
     "miasto": "Markuszów",
     "ulica": "Marcelego Mottego 32",
@@ -262,7 +262,7 @@
     ]
   },
   {
-    "imię": "Agrypina",
+    "imie": "Agrypina",
     "nazwisko": "Dziedzic",
     "miasto": "Kobiór",
     "ulica": "Ochota 30",
@@ -270,7 +270,7 @@
     "zainteresowania": ["wytwarzanie mebli", "astronomia"]
   },
   {
-    "imię": "Herbert",
+    "imie": "Herbert",
     "nazwisko": "Frankowski",
     "miasto": "Dylaki",
     "ulica": "Garbary 82",
@@ -278,7 +278,7 @@
     "zainteresowania": ["majsterkowanie", "rzucanie lotkami"]
   },
   {
-    "imię": "Samson",
+    "imie": "Samson",
     "nazwisko": "Kowalczyk",
     "miasto": "Żarów",
     "ulica": "Łosiowa 91",
@@ -286,7 +286,7 @@
     "zainteresowania": ["hodowanie tropikalnych rybek"]
   },
   {
-    "imię": "Wacław",
+    "imie": "Wacław",
     "nazwisko": "Michalik",
     "miasto": "Opole Lubelskie",
     "ulica": "Iwana Bunina 103",
@@ -299,7 +299,7 @@
     ]
   },
   {
-    "imię": "Nazary",
+    "imie": "Nazary",
     "nazwisko": "Góra",
     "miasto": "Unisław",
     "ulica": "Cyraneczki 26",
@@ -307,7 +307,7 @@
     "zainteresowania": ["praca w drewnie"]
   },
   {
-    "imię": "Serafin",
+    "imie": "Serafin",
     "nazwisko": "Sołtysiak",
     "miasto": "Kulesze Kościelne",
     "ulica": "Perłowska 77",
@@ -315,7 +315,7 @@
     "zainteresowania": ["gotowanie", "żeglowanie"]
   },
   {
-    "imię": "Maksymilian",
+    "imie": "Maksymilian",
     "nazwisko": "Cebula",
     "miasto": "Łódź",
     "ulica": "Radlińska 83",
@@ -323,7 +323,7 @@
     "zainteresowania": ["żeglowanie"]
   },
   {
-    "imię": "Benedykt",
+    "imie": "Benedykt",
     "nazwisko": "Bieńkowski",
     "miasto": "Gaworzyce",
     "ulica": "Emila Zoli 24",
@@ -331,7 +331,7 @@
     "zainteresowania": ["gra w piłkę nożną", "praca w drewnie"]
   },
   {
-    "imię": "August",
+    "imie": "August",
     "nazwisko": "Wilczek",
     "miasto": "Krzywda",
     "ulica": "Florentyny Luboińskiej 61",
@@ -339,7 +339,7 @@
     "zainteresowania": ["garncarstwo", "żeglowanie"]
   },
   {
-    "imię": "Sybilla",
+    "imie": "Sybilla",
     "nazwisko": "Kasprzyk",
     "miasto": "Murzynowo",
     "ulica": "Przelot 105",
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "imię": "Ewelina",
+    "imie": "Ewelina",
     "nazwisko": "Malinowska",
     "miasto": "Osiek",
     "ulica": "Kaprala Wojtka 25",
@@ -359,7 +359,7 @@
     "zainteresowania": ["rozwiązywanie krzyżówek", "rzucanie lotkami"]
   },
   {
-    "imię": "Marek",
+    "imie": "Marek",
     "nazwisko": "Bober",
     "miasto": "Czarnowąsy",
     "ulica": "Stanisława Latwisa 73",
@@ -367,7 +367,7 @@
     "zainteresowania": ["hodowla zwierząt", "gotowanie"]
   },
   {
-    "imię": "Liliana",
+    "imie": "Liliana",
     "nazwisko": "Stępień",
     "miasto": "Zduńska Wola",
     "ulica": "Lwowska 78",
@@ -375,7 +375,7 @@
     "zainteresowania": ["praca w drewnie", "czytanie", "sklejanie modeli"]
   },
   {
-    "imię": "Zachariasz",
+    "imie": "Zachariasz",
     "nazwisko": "Niewiadomski",
     "miasto": "Gdów",
     "ulica": "Wronczyńska 85",
@@ -383,7 +383,7 @@
     "zainteresowania": ["garncarstwo", "gotowanie", "astronomia"]
   },
   {
-    "imię": "Olga",
+    "imie": "Olga",
     "nazwisko": "Nowicka",
     "miasto": "Suchowola",
     "ulica": "Wietrzna 71",
@@ -391,7 +391,7 @@
     "zainteresowania": ["elektronika", "gra w piłkę nożną"]
   },
   {
-    "imię": "Ferdynanda",
+    "imie": "Ferdynanda",
     "nazwisko": "Makowska",
     "miasto": "Raków",
     "ulica": "Herbowa 47",
@@ -404,7 +404,7 @@
     ]
   },
   {
-    "imię": "Patrycjusz",
+    "imie": "Patrycjusz",
     "nazwisko": "Mrozek",
     "miasto": "Pszów",
     "ulica": "Ozimina 55",
@@ -416,7 +416,7 @@
     ]
   },
   {
-    "imię": "Teodora",
+    "imie": "Teodora",
     "nazwisko": "Jaworska",
     "miasto": "Międzyrzecz",
     "ulica": "Józefa Czapskiego 96",
@@ -424,7 +424,7 @@
     "zainteresowania": ["taniec", "garncarstwo", "elektronika"]
   },
   {
-    "imię": "Tekla",
+    "imie": "Tekla",
     "nazwisko": "Olejnik",
     "miasto": "Koło",
     "ulica": "Kastylijska 100",
@@ -432,7 +432,7 @@
     "zainteresowania": ["wytwarzanie mebli", "ćwiczenia gimnastyczne/aerobik"]
   },
   {
-    "imię": "Artur",
+    "imie": "Artur",
     "nazwisko": "Wolski",
     "miasto": "Lewin Brzeski",
     "ulica": "Mikołaja Kopernika 75",
@@ -440,7 +440,7 @@
     "zainteresowania": ["majsterkowanie"]
   },
   {
-    "imię": "Wanesa",
+    "imie": "Wanesa",
     "nazwisko": "Krajewska",
     "miasto": "Wołów",
     "ulica": "Mylna 91",
@@ -448,7 +448,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "gotowanie"]
   },
   {
-    "imię": "Łukasz",
+    "imie": "Łukasz",
     "nazwisko": "Kubica",
     "miasto": "Trofimówka",
     "ulica": "Maszynowa 23",
@@ -460,7 +460,7 @@
     ]
   },
   {
-    "imię": "Szczepan",
+    "imie": "Szczepan",
     "nazwisko": "Stachowiak",
     "miasto": "Banie Mazurskie",
     "ulica": "Johanna Wolfganga Goethego 55",
@@ -472,7 +472,7 @@
     ]
   },
   {
-    "imię": "Henryka",
+    "imie": "Henryka",
     "nazwisko": "Markiewicz",
     "miasto": "Ścinawa",
     "ulica": "Jana Rymarkiewicza 20",
@@ -485,7 +485,7 @@
     ]
   },
   {
-    "imię": "Walenty",
+    "imie": "Walenty",
     "nazwisko": "Białas",
     "miasto": "Tarnów",
     "ulica": "Wieruszowska 47",
@@ -497,7 +497,7 @@
     ]
   },
   {
-    "imię": "Liza",
+    "imie": "Liza",
     "nazwisko": "Mikołajczyk",
     "miasto": "Łęgowo",
     "ulica": "Brodnicka 51",
@@ -509,7 +509,7 @@
     ]
   },
   {
-    "imię": "Rajnold",
+    "imie": "Rajnold",
     "nazwisko": "Kucharski",
     "miasto": "Płoty",
     "ulica": "Górska 20",
@@ -521,7 +521,7 @@
     ]
   },
   {
-    "imię": "Roksana",
+    "imie": "Roksana",
     "nazwisko": "Lewandowska",
     "miasto": "Jedlicze",
     "ulica": "Epicka 99",
@@ -529,7 +529,7 @@
     "zainteresowania": ["wędkarstwo", "rzucanie lotkami"]
   },
   {
-    "imię": "Igor",
+    "imie": "Igor",
     "nazwisko": "Skowroński",
     "miasto": "Złotów",
     "ulica": "Maków Polnych 87",
@@ -537,7 +537,7 @@
     "zainteresowania": ["elektronika", "jazda na rowerze"]
   },
   {
-    "imię": "Tekla",
+    "imie": "Tekla",
     "nazwisko": "Janiszewska",
     "miasto": "Jastków",
     "ulica": "Franciszka Stróżyńskiego 68",
@@ -549,7 +549,7 @@
     ]
   },
   {
-    "imię": "Nazary",
+    "imie": "Nazary",
     "nazwisko": "Mroczkowski",
     "miasto": "Biały Dunajec",
     "ulica": "Wieluńska 70",
@@ -557,7 +557,7 @@
     "zainteresowania": ["garncarstwo"]
   },
   {
-    "imię": "Gonsalwy",
+    "imie": "Gonsalwy",
     "nazwisko": "Kwieciński",
     "miasto": "Miechucino",
     "ulica": "Bartnicza 18",
@@ -570,7 +570,7 @@
     ]
   },
   {
-    "imię": "Łucja",
+    "imie": "Łucja",
     "nazwisko": "Tomczyk",
     "miasto": "Humniska",
     "ulica": "Skośna 38",
@@ -578,7 +578,7 @@
     "zainteresowania": ["ogrodnictwo"]
   },
   {
-    "imię": "Hanna",
+    "imie": "Hanna",
     "nazwisko": "Mazurkiewicz",
     "miasto": "Brzeg",
     "ulica": "Panny 51",
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "imię": "August",
+    "imie": "August",
     "nazwisko": "Filipowicz",
     "miasto": "Stronie Śląskie",
     "ulica": "Mołdawska 104",
@@ -598,7 +598,7 @@
     "zainteresowania": ["wspinaczka górska", "wędkarstwo"]
   },
   {
-    "imię": "Greta",
+    "imie": "Greta",
     "nazwisko": "Bednarek",
     "miasto": "Klimontów",
     "ulica": "Białostocka 63",
@@ -609,7 +609,7 @@
     ]
   },
   {
-    "imię": "Patrycjusz",
+    "imie": "Patrycjusz",
     "nazwisko": "Maj",
     "miasto": "Przemków",
     "ulica": "Trzcianecka 22",
@@ -617,7 +617,7 @@
     "zainteresowania": ["wędkarstwo", "wyścigi samochodowe"]
   },
   {
-    "imię": "Prokul",
+    "imie": "Prokul",
     "nazwisko": "Kasperek",
     "miasto": "Poddębice",
     "ulica": "Laudańska 104",
@@ -625,7 +625,7 @@
     "zainteresowania": ["gotowanie", "kolekcjonowanie monet/znaczków"]
   },
   {
-    "imię": "Zoe",
+    "imie": "Zoe",
     "nazwisko": "Partyka",
     "miasto": "Bytów",
     "ulica": "Adama Kręglewskiego 10",
@@ -633,7 +633,7 @@
     "zainteresowania": ["obserwacja ptaków", "taniec", "wytwarzanie mebli"]
   },
   {
-    "imię": "Michał",
+    "imie": "Michał",
     "nazwisko": "Modzelewski",
     "miasto": "Sadlinki",
     "ulica": "Patrice`a Lumumby 66",
@@ -641,7 +641,7 @@
     "zainteresowania": ["szycie", "wyścigi samochodowe"]
   },
   {
-    "imię": "Noemi",
+    "imie": "Noemi",
     "nazwisko": "Stępień",
     "miasto": "Dobczyce",
     "ulica": "Wojskowa 52",
@@ -649,7 +649,7 @@
     "zainteresowania": ["praca przy samochodzie", "wyścigi samochodowe"]
   },
   {
-    "imię": "Zachary",
+    "imie": "Zachary",
     "nazwisko": "Szczygieł",
     "miasto": "Piastów",
     "ulica": "Ślesińska 104",
@@ -657,7 +657,7 @@
     "zainteresowania": ["rzucanie lotkami", "gotowanie"]
   },
   {
-    "imię": "Kamila",
+    "imie": "Kamila",
     "nazwisko": "Rogowska",
     "miasto": "Racławówka",
     "ulica": "Rakietowa 19",
@@ -670,7 +670,7 @@
     ]
   },
   {
-    "imię": "Pelagia",
+    "imie": "Pelagia",
     "nazwisko": "Pawlik",
     "miasto": "Zebrzydowice",
     "ulica": "Idy Fink 42",
@@ -682,7 +682,7 @@
     ]
   },
   {
-    "imię": "Henryk",
+    "imie": "Henryk",
     "nazwisko": "Sosnowski",
     "miasto": "Lubień Kujawski",
     "ulica": "Tatrzańska 50",
@@ -695,7 +695,7 @@
     ]
   },
   {
-    "imię": "Apollo",
+    "imie": "Apollo",
     "nazwisko": "Krawczyk",
     "miasto": "Ińsko",
     "ulica": "Heleny Modrzejewskiej 89",
@@ -703,7 +703,7 @@
     "zainteresowania": ["elektronika", "gra na instrumentach muzycznych"]
   },
   {
-    "imię": "Wilhelmina",
+    "imie": "Wilhelmina",
     "nazwisko": "Czajka",
     "miasto": "Resko",
     "ulica": "Torfowa 71",
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "imię": "Julia",
+    "imie": "Julia",
     "nazwisko": "Szulc",
     "miasto": "Żywiec",
     "ulica": "Winogronowa 87",
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "imię": "Katarzyna",
+    "imie": "Katarzyna",
     "nazwisko": "Jankowska",
     "miasto": "Dywity",
     "ulica": "Michała Kajki 41",
@@ -740,7 +740,7 @@
     ]
   },
   {
-    "imię": "Hilarion",
+    "imie": "Hilarion",
     "nazwisko": "Kubica",
     "miasto": "Międzyrzecz",
     "ulica": "Sobiesława 63",
@@ -753,7 +753,7 @@
     ]
   },
   {
-    "imię": "Józefina",
+    "imie": "Józefina",
     "nazwisko": "Kalinowska",
     "miasto": "Recz",
     "ulica": "Kazimierza Spornego 66",
@@ -765,7 +765,7 @@
     ]
   },
   {
-    "imię": "Modest",
+    "imie": "Modest",
     "nazwisko": "Makowski",
     "miasto": "Fasty",
     "ulica": "Pomorska 45",
@@ -773,7 +773,7 @@
     "zainteresowania": ["garncarstwo", "wytwarzanie mebli", "szycie"]
   },
   {
-    "imię": "Ksawera",
+    "imie": "Ksawera",
     "nazwisko": "Zięba",
     "miasto": "Ozorków",
     "ulica": "Laskowa 96",
@@ -785,7 +785,7 @@
     ]
   },
   {
-    "imię": "Konstanty",
+    "imie": "Konstanty",
     "nazwisko": "Kula",
     "miasto": "Krzywiń",
     "ulica": "Szubińska 61",
@@ -793,7 +793,7 @@
     "zainteresowania": ["praca przy samochodzie", "wspinaczka górska"]
   },
   {
-    "imię": "Daniel",
+    "imie": "Daniel",
     "nazwisko": "Tomaszewski",
     "miasto": "Przecław",
     "ulica": "Michała Wołodyjowskiego 96",
@@ -806,7 +806,7 @@
     ]
   },
   {
-    "imię": "Benedykt",
+    "imie": "Benedykt",
     "nazwisko": "Chrzanowski",
     "miasto": "Grabin",
     "ulica": "Stefana Szolca-Rogozińskiego 67",
@@ -814,7 +814,7 @@
     "zainteresowania": ["astronomia", "wyścigi samochodowe", "elektronika"]
   },
   {
-    "imię": "Dionizy",
+    "imie": "Dionizy",
     "nazwisko": "Kurek",
     "miasto": "Tomaszów Lubelski",
     "ulica": "Chochołowska 39",
@@ -822,7 +822,7 @@
     "zainteresowania": ["gry komputerowe", "majsterkowanie"]
   },
   {
-    "imię": "Ksenia",
+    "imie": "Ksenia",
     "nazwisko": "Leśniak",
     "miasto": "Lubowidz",
     "ulica": "Łagiewnicka 41",
@@ -830,7 +830,7 @@
     "zainteresowania": ["taniec", "obserwacja ptaków"]
   },
   {
-    "imię": "Judyta",
+    "imie": "Judyta",
     "nazwisko": "Walczak",
     "miasto": "Ożarów",
     "ulica": "Łopianowa 16",
@@ -838,7 +838,7 @@
     "zainteresowania": ["taniec", "elektronika"]
   },
   {
-    "imię": "Beniamin",
+    "imie": "Beniamin",
     "nazwisko": "Murawski",
     "miasto": "Nowa Wieś Ełcka",
     "ulica": "Dojazd 50",
@@ -851,7 +851,7 @@
     ]
   },
   {
-    "imię": "Innocenty",
+    "imie": "Innocenty",
     "nazwisko": "Banasik",
     "miasto": "Ćmiłów",
     "ulica": "Wojnowicka 84",
@@ -859,7 +859,7 @@
     "zainteresowania": ["kolekcjonowanie monet/znaczków", "wspinaczka górska"]
   },
   {
-    "imię": "Walery",
+    "imie": "Walery",
     "nazwisko": "Adamiak",
     "miasto": "Goleniów",
     "ulica": "Franciszka Stróżyńskiego 8",
@@ -867,7 +867,7 @@
     "zainteresowania": ["wędkarstwo", "fotografia", "astronomia"]
   },
   {
-    "imię": "Róża",
+    "imie": "Róża",
     "nazwisko": "Gajewska",
     "miasto": "Gaworzyce",
     "ulica": "Aragońska 102",
@@ -875,7 +875,7 @@
     "zainteresowania": ["praca ochotnicza", "praca przy komputerze"]
   },
   {
-    "imię": "Laurencjusz",
+    "imie": "Laurencjusz",
     "nazwisko": "Siedlecki",
     "miasto": "Sędziszów",
     "ulica": "Franciszka Adamanisa 16",
@@ -883,7 +883,7 @@
     "zainteresowania": ["gotowanie", "czytanie"]
   },
   {
-    "imię": "Maja",
+    "imie": "Maja",
     "nazwisko": "Laskowska",
     "miasto": "Zakrzewo",
     "ulica": "Gołuchowska 21",
@@ -895,7 +895,7 @@
     ]
   },
   {
-    "imię": "Prokul",
+    "imie": "Prokul",
     "nazwisko": "Królikowski",
     "miasto": "Rozwadza",
     "ulica": "Chodzieska 55",
@@ -908,7 +908,7 @@
     ]
   },
   {
-    "imię": "Justyn",
+    "imie": "Justyn",
     "nazwisko": "Klimek",
     "miasto": "Grzybowo",
     "ulica": "Płomienna 23",
@@ -916,7 +916,7 @@
     "zainteresowania": ["czytanie", "rozwiązywanie krzyżówek"]
   },
   {
-    "imię": "Patrycja",
+    "imie": "Patrycja",
     "nazwisko": "Sobczak",
     "miasto": "Radoszyce",
     "ulica": "Muszkowska 34",
@@ -924,7 +924,7 @@
     "zainteresowania": ["taniec", "praca ochotnicza", "jazda na rowerze"]
   },
   {
-    "imię": "Jadwiga",
+    "imie": "Jadwiga",
     "nazwisko": "Brzozowska",
     "miasto": "Sierakowice",
     "ulica": "Lucyny Sieciechowiczowej 99",
@@ -932,7 +932,7 @@
     "zainteresowania": ["praca w drewnie", "obserwacja ptaków"]
   },
   {
-    "imię": "Karolina",
+    "imie": "Karolina",
     "nazwisko": "Brzozowska",
     "miasto": "Sierakowice",
     "ulica": "Odległa 87",
@@ -940,7 +940,7 @@
     "zainteresowania": ["astronomia", "elektronika"]
   },
   {
-    "imię": "Natalia",
+    "imie": "Natalia",
     "nazwisko": "Lipińska",
     "miasto": "Gorzyce",
     "ulica": "Orla 76",
@@ -952,7 +952,7 @@
     ]
   },
   {
-    "imię": "Kornelia",
+    "imie": "Kornelia",
     "nazwisko": "Socha",
     "miasto": "Oleśnica",
     "ulica": "Kostrzyńska 25",
@@ -960,7 +960,7 @@
     "zainteresowania": ["praca przy komputerze"]
   },
   {
-    "imię": "Edyta",
+    "imie": "Edyta",
     "nazwisko": "Majewska",
     "miasto": "Suchowola",
     "ulica": "Nad Krzesinką 89",
@@ -968,7 +968,7 @@
     "zainteresowania": ["szycie", "fotografia", "hodowanie tropikalnych rybek"]
   },
   {
-    "imię": "Harald",
+    "imie": "Harald",
     "nazwisko": "Białek",
     "miasto": "Banie",
     "ulica": "Obrzeże 54",
@@ -980,7 +980,7 @@
     ]
   },
   {
-    "imię": "Klemens",
+    "imie": "Klemens",
     "nazwisko": "Lewandowski",
     "miasto": "Zebrzydowice",
     "ulica": "Ludosławy 91",
@@ -993,7 +993,7 @@
     ]
   },
   {
-    "imię": "Fabian",
+    "imie": "Fabian",
     "nazwisko": "Niemiec",
     "miasto": "Skała",
     "ulica": "Jędrzejowska 100",
@@ -1001,7 +1001,7 @@
     "zainteresowania": ["ogrodnictwo", "garncarstwo", "fotografia"]
   },
   {
-    "imię": "Zachary",
+    "imie": "Zachary",
     "nazwisko": "Michałek",
     "miasto": "Bieliny",
     "ulica": "Balonowa 101",
@@ -1009,7 +1009,7 @@
     "zainteresowania": ["sklejanie modeli", "wytwarzanie mebli"]
   },
   {
-    "imię": "Maksym",
+    "imie": "Maksym",
     "nazwisko": "Januszewski",
     "miasto": "Chrząstowice",
     "ulica": "Józefa Rymera 100",
@@ -1017,7 +1017,7 @@
     "zainteresowania": ["hodowanie tropikalnych rybek", "majsterkowanie"]
   },
   {
-    "imię": "Bibianna",
+    "imie": "Bibianna",
     "nazwisko": "Witkowska",
     "miasto": "Biała Rawska",
     "ulica": "Zawady 103",
@@ -1025,7 +1025,7 @@
     "zainteresowania": ["ogrodnictwo", "gotowanie", "wędkarstwo", "czytanie"]
   },
   {
-    "imię": "Izabela",
+    "imie": "Izabela",
     "nazwisko": "Przybylska",
     "miasto": "Teresin",
     "ulica": "Poznańskie Sady 32",
@@ -1033,7 +1033,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "jazda na rowerze"]
   },
   {
-    "imię": "Maja",
+    "imie": "Maja",
     "nazwisko": "Lisowska",
     "miasto": "Chocianów",
     "ulica": "Orężna 54",
@@ -1041,7 +1041,7 @@
     "zainteresowania": ["gry komputerowe", "jazda na rowerze", "majsterkowanie"]
   },
   {
-    "imię": "Barbara",
+    "imie": "Barbara",
     "nazwisko": "Kuczyńska",
     "miasto": "Tychowo",
     "ulica": "Skotarska 80",
@@ -1049,7 +1049,7 @@
     "zainteresowania": ["rozwiązywanie krzyżówek"]
   },
   {
-    "imię": "Patrycy",
+    "imie": "Patrycy",
     "nazwisko": "Konieczna",
     "miasto": "Wrocław",
     "ulica": "Kaliowa 20",
@@ -1060,7 +1060,7 @@
     ]
   },
   {
-    "imię": "Edyta",
+    "imie": "Edyta",
     "nazwisko": "Laskowska",
     "miasto": "Chwalęcice",
     "ulica": "Dzieci Wrzesińskich 74",
@@ -1073,7 +1073,7 @@
     ]
   },
   {
-    "imię": "Klemens",
+    "imie": "Klemens",
     "nazwisko": "Dudek",
     "miasto": "Rakoniewice",
     "ulica": "Szubińska 75",
@@ -1081,7 +1081,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych"]
   },
   {
-    "imię": "Larysa",
+    "imie": "Larysa",
     "nazwisko": "Nowak",
     "miasto": "Stare Kurowo",
     "ulica": "Bogusława 84",
@@ -1089,7 +1089,7 @@
     "zainteresowania": ["elektronika", "czytanie", "gry komputerowe"]
   },
   {
-    "imię": "Olaf",
+    "imie": "Olaf",
     "nazwisko": "Masłowski",
     "miasto": "Miłomłyn",
     "ulica": "Podolska 86",
@@ -1097,7 +1097,7 @@
     "zainteresowania": ["elektronika", "garncarstwo", "majsterkowanie"]
   },
   {
-    "imię": "Spirydion",
+    "imie": "Spirydion",
     "nazwisko": "Szcześniak",
     "miasto": "Gomunice",
     "ulica": "Przebiśniegowa 31",
@@ -1105,7 +1105,7 @@
     "zainteresowania": ["praca przy samochodzie"]
   },
   {
-    "imię": "Ignacy",
+    "imie": "Ignacy",
     "nazwisko": "Gutowski",
     "miasto": "Bakałarzewo",
     "ulica": "Szpaków 15",
@@ -1118,7 +1118,7 @@
     ]
   },
   {
-    "imię": "Leonid",
+    "imie": "Leonid",
     "nazwisko": "Jędrzejewski",
     "miasto": "Zator",
     "ulica": "Armeńska 40",
@@ -1131,7 +1131,7 @@
     ]
   },
   {
-    "imię": "Cyrus",
+    "imie": "Cyrus",
     "nazwisko": "Nowaczyk",
     "miasto": "Trzebiatów",
     "ulica": "Galileusza 24",
@@ -1139,7 +1139,7 @@
     "zainteresowania": ["gotowanie", "jazda na rowerze"]
   },
   {
-    "imię": "Gerald",
+    "imie": "Gerald",
     "nazwisko": "Kowalczyk",
     "miasto": "Strawczyn",
     "ulica": "Migdałowa 40",
@@ -1152,7 +1152,7 @@
     ]
   },
   {
-    "imię": "Justyna",
+    "imie": "Justyna",
     "nazwisko": "Kaczmarek",
     "miasto": "Dobiegniew",
     "ulica": "Na Skarpie 39",
@@ -1165,7 +1165,7 @@
     ]
   },
   {
-    "imię": "Maksym",
+    "imie": "Maksym",
     "nazwisko": "Kujawski",
     "miasto": "Nysa",
     "ulica": "Floriana Marciniaka 49",
@@ -1173,7 +1173,7 @@
     "zainteresowania": ["szycie", "wędkarstwo"]
   },
   {
-    "imię": "Konstantyn",
+    "imie": "Konstantyn",
     "nazwisko": "Białek",
     "miasto": "Jamielnik",
     "ulica": "Żegrze 15",
@@ -1186,7 +1186,7 @@
     ]
   },
   {
-    "imię": "Izabela",
+    "imie": "Izabela",
     "nazwisko": "Czech",
     "miasto": "Garbów I",
     "ulica": "Retmańska 53",
@@ -1194,7 +1194,7 @@
     "zainteresowania": ["gotowanie", "gra w piłkę nożną"]
   },
   {
-    "imię": "Agata",
+    "imie": "Agata",
     "nazwisko": "Kozioł",
     "miasto": "Pyskowice",
     "ulica": "Dworkowa 55",
@@ -1202,7 +1202,7 @@
     "zainteresowania": ["taniec", "wędkarstwo", "wytwarzanie mebli"]
   },
   {
-    "imię": "Walenty",
+    "imie": "Walenty",
     "nazwisko": "Górski",
     "miasto": "Lubań",
     "ulica": "Rumuńska 45",
@@ -1210,7 +1210,7 @@
     "zainteresowania": ["żeglowanie", "gotowanie", "czytanie", "szycie"]
   },
   {
-    "imię": "—",
+    "imie": "—",
     "nazwisko": "Karpiński",
     "miasto": "Międzychód",
     "ulica": "Przy Dolinie 32",
@@ -1218,7 +1218,7 @@
     "zainteresowania": ["szycie", "gry komputerowe", "żeglowanie"]
   },
   {
-    "imię": "Zachariasz",
+    "imie": "Zachariasz",
     "nazwisko": "Laskowski",
     "miasto": "Węgorzewo",
     "ulica": "Szronowa 54",
@@ -1230,7 +1230,7 @@
     ]
   },
   {
-    "imię": "Lilla",
+    "imie": "Lilla",
     "nazwisko": "Kowalewska",
     "miasto": "Libiąż",
     "ulica": "Chodzieska 81",
@@ -1242,7 +1242,7 @@
     ]
   },
   {
-    "imię": "Łukasz",
+    "imie": "Łukasz",
     "nazwisko": "Madej",
     "miasto": "Rokiciny-Kolonia",
     "ulica": "Sytkowska 31",
@@ -1254,7 +1254,7 @@
     ]
   },
   {
-    "imię": "Roksana",
+    "imie": "Roksana",
     "nazwisko": "Kowalczyk",
     "miasto": "Bełchatów",
     "ulica": "Adama Wrzoska 15",
@@ -1265,7 +1265,7 @@
     ]
   },
   {
-    "imię": "Larysa",
+    "imie": "Larysa",
     "nazwisko": "Kozioł",
     "miasto": "Śniadowo",
     "ulica": "Maszewska 53",
@@ -1273,7 +1273,7 @@
     "zainteresowania": ["rozwiązywanie krzyżówek", "malowanie artystyczne"]
   },
   {
-    "imię": "Ilona",
+    "imie": "Ilona",
     "nazwisko": "Czajka",
     "miasto": "Grębocin",
     "ulica": "Rybitwy 41",
@@ -1286,7 +1286,7 @@
     ]
   },
   {
-    "imię": "Leonard",
+    "imie": "Leonard",
     "nazwisko": "Kaczyński",
     "miasto": "Słomniki",
     "ulica": "Stefana Różyckiego 102",
@@ -1299,7 +1299,7 @@
     ]
   },
   {
-    "imię": "Eliasz",
+    "imie": "Eliasz",
     "nazwisko": "Maj",
     "miasto": "Sława",
     "ulica": "Ziarnista 103",
@@ -1311,7 +1311,7 @@
     ]
   },
   {
-    "imię": "Wanda",
+    "imie": "Wanda",
     "nazwisko": "Klimek",
     "miasto": "Poznań",
     "ulica": "Podhalańska 76",
@@ -1324,7 +1324,7 @@
     ]
   },
   {
-    "imię": "Osmund",
+    "imie": "Osmund",
     "nazwisko": "Sitek",
     "miasto": "Miedziana Góra",
     "ulica": "Arnikowa 40",
@@ -1332,7 +1332,7 @@
     "zainteresowania": ["praca w drewnie", "jazda na rowerze"]
   },
   {
-    "imię": "Edmund",
+    "imie": "Edmund",
     "nazwisko": "Zych",
     "miasto": "Linia",
     "ulica": "Cześnikowska 76",
@@ -1340,7 +1340,7 @@
     "zainteresowania": ["praca przy samochodzie", "praca ochotnicza"]
   },
   {
-    "imię": "Greta",
+    "imie": "Greta",
     "nazwisko": "Rutkowska",
     "miasto": "Zgórsko",
     "ulica": "Limanowska 66",
@@ -1348,7 +1348,7 @@
     "zainteresowania": ["taniec"]
   },
   {
-    "imię": "Łazarz",
+    "imie": "Łazarz",
     "nazwisko": "Cichy",
     "miasto": "Pawłowice",
     "ulica": "Przylaszczkowa 84",
@@ -1361,7 +1361,7 @@
     ]
   },
   {
-    "imię": "Bruno",
+    "imie": "Bruno",
     "nazwisko": "Serafin",
     "miasto": "Szamocin",
     "ulica": "Lubelska 97",
@@ -1369,7 +1369,7 @@
     "zainteresowania": ["praca w drewnie", "hodowla zwierząt"]
   },
   {
-    "imię": "Edmund",
+    "imie": "Edmund",
     "nazwisko": "Surma",
     "miasto": "Kościerzyna",
     "ulica": "Raszkowska 46",
@@ -1381,7 +1381,7 @@
     ]
   },
   {
-    "imię": "Emilia",
+    "imie": "Emilia",
     "nazwisko": "Bednarz",
     "miasto": "Pyzdry",
     "ulica": "Błońska 15",
@@ -1389,7 +1389,7 @@
     "zainteresowania": ["garncarstwo"]
   },
   {
-    "imię": "Izabela",
+    "imie": "Izabela",
     "nazwisko": "Stankiewicz",
     "miasto": "Kalinów",
     "ulica": "Orawski 60",
@@ -1397,7 +1397,7 @@
     "zainteresowania": ["gry komputerowe", "czytanie", "wyścigi samochodowe"]
   },
   {
-    "imię": "Ginewra",
+    "imie": "Ginewra",
     "nazwisko": "Śliwińska",
     "miasto": "Zajęczniki",
     "ulica": "Dedala 15",
@@ -1405,7 +1405,7 @@
     "zainteresowania": ["jazda na rowerze"]
   },
   {
-    "imię": "Janusz",
+    "imie": "Janusz",
     "nazwisko": "Szymański",
     "miasto": "Janki",
     "ulica": "Heleny Szafran 84",
@@ -1413,7 +1413,7 @@
     "zainteresowania": ["szycie", "sklejanie modeli", "garncarstwo"]
   },
   {
-    "imię": "Filip",
+    "imie": "Filip",
     "nazwisko": "Gwóźdź",
     "miasto": "Piotrków Kujawski",
     "ulica": "Piławska 21",
@@ -1426,7 +1426,7 @@
     ]
   },
   {
-    "imię": "Zoe",
+    "imie": "Zoe",
     "nazwisko": "Stasiak",
     "miasto": "Kije",
     "ulica": "Charzykowska 16",
@@ -1434,7 +1434,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "praca w drewnie"]
   },
   {
-    "imię": "Lilia",
+    "imie": "Lilia",
     "nazwisko": "Kurek",
     "miasto": "Piła",
     "ulica": "Bitwy pod Siekierkami 71",
@@ -1442,7 +1442,7 @@
     "zainteresowania": ["malowanie artystyczne", "taniec", "hodowla zwierząt"]
   },
   {
-    "imię": "Efrem",
+    "imie": "Efrem",
     "nazwisko": "Łukasiewicz",
     "miasto": "Lipce Reymontowskie",
     "ulica": "Bruzdowa 21",
@@ -1450,7 +1450,7 @@
     "zainteresowania": ["obserwacja ptaków", "wędkarstwo"]
   },
   {
-    "imię": "Lilianna",
+    "imie": "Lilianna",
     "nazwisko": "Wróblewska",
     "miasto": "Kuniów",
     "ulica": "Krystyny Feldman 41",
@@ -1462,7 +1462,7 @@
     ]
   },
   {
-    "imię": "Joachim",
+    "imie": "Joachim",
     "nazwisko": "Iwański",
     "miasto": "Śródlesie",
     "ulica": "Teodora Parnickiego 16",
@@ -1474,7 +1474,7 @@
     ]
   },
   {
-    "imię": "Gabriela",
+    "imie": "Gabriela",
     "nazwisko": "Majchrzak",
     "miasto": "Tuchów",
     "ulica": "Sowia 56",
@@ -1482,7 +1482,7 @@
     "zainteresowania": ["wędkarstwo", "praca ochotnicza"]
   },
   {
-    "imię": "Emil",
+    "imie": "Emil",
     "nazwisko": "Woliński",
     "miasto": "Łukawiec",
     "ulica": "Jana Sokołowskiego 28",
@@ -1494,7 +1494,7 @@
     ]
   },
   {
-    "imię": "Chloe",
+    "imie": "Chloe",
     "nazwisko": "Szewczyk",
     "miasto": "Staniszcze Małe",
     "ulica": "Fryderyka Skarbka 27",
@@ -1502,7 +1502,7 @@
     "zainteresowania": ["malowanie artystyczne", "czytanie", "rzucanie lotkami"]
   },
   {
-    "imię": "Justyna",
+    "imie": "Justyna",
     "nazwisko": "Wróblewska",
     "miasto": "Krosno",
     "ulica": "Lwa Tołstoja 15",
@@ -1510,7 +1510,7 @@
     "zainteresowania": ["wyścigi samochodowe", "gotowanie"]
   },
   {
-    "imię": "Nestor",
+    "imie": "Nestor",
     "nazwisko": "Podgórski",
     "miasto": "Lubzina",
     "ulica": "Koprowa 23",
@@ -1518,7 +1518,7 @@
     "zainteresowania": ["fotografia", "gry komputerowe"]
   },
   {
-    "imię": "Luiza",
+    "imie": "Luiza",
     "nazwisko": "Mucha",
     "miasto": "Parczew",
     "ulica": "Witnicka 17",
@@ -1526,7 +1526,7 @@
     "zainteresowania": ["wyścigi samochodowe", "majsterkowanie"]
   },
   {
-    "imię": "Eugeniusz",
+    "imie": "Eugeniusz",
     "nazwisko": "Filipiak",
     "miasto": "Spychowo",
     "ulica": "Andrychowska 15",
@@ -1534,7 +1534,7 @@
     "zainteresowania": ["taniec", "praca przy komputerze", "żeglowanie"]
   },
   {
-    "imię": "Konstanty",
+    "imie": "Konstanty",
     "nazwisko": "Siwek",
     "miasto": "Bezrzecze",
     "ulica": "Jeleniogórska 31",
@@ -1542,7 +1542,7 @@
     "zainteresowania": ["wspinaczka górska"]
   },
   {
-    "imię": "Laurentyna",
+    "imie": "Laurentyna",
     "nazwisko": "Kozieł",
     "miasto": "Puszczykowo",
     "ulica": "Topolowa 7",
@@ -1555,7 +1555,7 @@
     ]
   },
   {
-    "imię": "Łucja",
+    "imie": "Łucja",
     "nazwisko": "Krajewska",
     "miasto": "Wyry",
     "ulica": "Napoleońska 23",
@@ -1563,7 +1563,7 @@
     "zainteresowania": ["garncarstwo", "praca ochotnicza", "czytanie"]
   },
   {
-    "imię": "Horacy",
+    "imie": "Horacy",
     "nazwisko": "Dąbkowski",
     "miasto": "Miłki",
     "ulica": "Adama Haber-Włyńskiego 26",
@@ -1571,7 +1571,7 @@
     "zainteresowania": ["gotowanie", "astronomia"]
   },
   {
-    "imię": "Izydor",
+    "imie": "Izydor",
     "nazwisko": "Śliwa",
     "miasto": "Mrozy",
     "ulica": "Emilii Plater 99",
@@ -1579,7 +1579,7 @@
     "zainteresowania": ["obserwacja ptaków", "gry komputerowe"]
   },
   {
-    "imię": "Demetriusz",
+    "imie": "Demetriusz",
     "nazwisko": "Kubiak",
     "miasto": "Konotop",
     "ulica": "Heleny Szafran 32",
@@ -1591,7 +1591,7 @@
     ]
   },
   {
-    "imię": "Patrycjusz",
+    "imie": "Patrycjusz",
     "nazwisko": "Radomski",
     "miasto": "Chełmża",
     "ulica": "Henryka Wieniawskiego 103",
@@ -1599,7 +1599,7 @@
     "zainteresowania": ["rzucanie lotkami", "obserwacja ptaków"]
   },
   {
-    "imię": "Eliasz",
+    "imie": "Eliasz",
     "nazwisko": "Czaja",
     "miasto": "Stopnica",
     "ulica": "Poli Gojawiczyńskiej 78",
@@ -1607,7 +1607,7 @@
     "zainteresowania": ["gra w piłkę nożną", "praca ochotnicza"]
   },
   {
-    "imię": "Henryka",
+    "imie": "Henryka",
     "nazwisko": "Olejnik",
     "miasto": "Starogard Gdański",
     "ulica": "Janosika 93",
@@ -1619,7 +1619,7 @@
     ]
   },
   {
-    "imię": "Witalis",
+    "imie": "Witalis",
     "nazwisko": "Kasperek",
     "miasto": "Zblewo",
     "ulica": "Skórzewska 61",
@@ -1627,7 +1627,7 @@
     "zainteresowania": ["praca w drewnie", "elektronika"]
   },
   {
-    "imię": "Kleopatra",
+    "imie": "Kleopatra",
     "nazwisko": "Klimek",
     "miasto": "Łuków",
     "ulica": "Świebodzińska 87",
@@ -1635,7 +1635,7 @@
     "zainteresowania": ["gotowanie", "praca w drewnie"]
   },
   {
-    "imię": "Reginald",
+    "imie": "Reginald",
     "nazwisko": "Ptak",
     "miasto": "Grodziec",
     "ulica": "Stanisława Dygata 22",
@@ -1643,7 +1643,7 @@
     "zainteresowania": ["gry komputerowe", "obserwacja ptaków"]
   },
   {
-    "imię": "Joachim",
+    "imie": "Joachim",
     "nazwisko": "Marczak",
     "miasto": "Nowa Wieś Ełcka",
     "ulica": "Jarosława Maciejewskiego 13",
@@ -1651,7 +1651,7 @@
     "zainteresowania": ["elektronika", "obserwacja ptaków"]
   },
   {
-    "imię": "Adam",
+    "imie": "Adam",
     "nazwisko": "Drabik",
     "miasto": "Kąty Opolskie",
     "ulica": "Miętowa 57",
@@ -1664,7 +1664,7 @@
     ]
   },
   {
-    "imię": "Bruno",
+    "imie": "Bruno",
     "nazwisko": "Siwek",
     "miasto": "Biłgoraj",
     "ulica": "Boczowska 88",
@@ -1672,7 +1672,7 @@
     "zainteresowania": ["ćwiczenia gimnastyczne/aerobik", "sklejanie modeli"]
   },
   {
-    "imię": "Adrian",
+    "imie": "Adrian",
     "nazwisko": "Zaręba",
     "miasto": "Ługwałd",
     "ulica": "Kurzanoga 55",
@@ -1680,7 +1680,7 @@
     "zainteresowania": ["praca przy samochodzie", "żeglowanie"]
   },
   {
-    "imię": "Konstantyn",
+    "imie": "Konstantyn",
     "nazwisko": "Furman",
     "miasto": "Małomice",
     "ulica": "Forsycjowa 90",
@@ -1688,7 +1688,7 @@
     "zainteresowania": ["wyścigi samochodowe"]
   },
   {
-    "imię": "Larysa",
+    "imie": "Larysa",
     "nazwisko": "Błaszczyk",
     "miasto": "Łaziska Górne",
     "ulica": "Gronostajowa 35",
@@ -1701,7 +1701,7 @@
     ]
   },
   {
-    "imię": "Nina",
+    "imie": "Nina",
     "nazwisko": "Romanowska",
     "miasto": "Skępe",
     "ulica": "Kostrzyńska 51",
@@ -1709,7 +1709,7 @@
     "zainteresowania": ["praca ochotnicza", "ćwiczenia gimnastyczne/aerobik"]
   },
   {
-    "imię": "Walentyna",
+    "imie": "Walentyna",
     "nazwisko": "Wieczorek",
     "miasto": "Kielcza",
     "ulica": "Longinusa Podbipięty 15",
@@ -1717,7 +1717,7 @@
     "zainteresowania": ["sklejanie modeli", "rzucanie lotkami"]
   },
   {
-    "imię": "Rebeka",
+    "imie": "Rebeka",
     "nazwisko": "Muszyńska",
     "miasto": "Sarbinowo",
     "ulica": "Pobielska 61",
@@ -1730,7 +1730,7 @@
     ]
   },
   {
-    "imię": "Seweryn",
+    "imie": "Seweryn",
     "nazwisko": "Rogowski",
     "miasto": "Krasne",
     "ulica": "Marii Rodziewiczówny 35",
@@ -1738,7 +1738,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "szycie"]
   },
   {
-    "imię": "Dominik",
+    "imie": "Dominik",
     "nazwisko": "Świątek",
     "miasto": "Chojna",
     "ulica": "Stefana Okrzei 81",
@@ -1746,7 +1746,7 @@
     "zainteresowania": ["kolekcjonowanie monet/znaczków", "majsterkowanie"]
   },
   {
-    "imię": "Aleksy",
+    "imie": "Aleksy",
     "nazwisko": "Maciejewski",
     "miasto": "Rozogi",
     "ulica": "Gustawa Herlinga-Grudzińskiego 104",
@@ -1758,7 +1758,7 @@
     ]
   },
   {
-    "imię": "Walenty",
+    "imie": "Walenty",
     "nazwisko": "Buczek",
     "miasto": "Przeźmierowo",
     "ulica": "Goździkowa 28",
@@ -1771,7 +1771,7 @@
     ]
   },
   {
-    "imię": "Bibiana",
+    "imie": "Bibiana",
     "nazwisko": "Grzelak",
     "miasto": "Rogoźno",
     "ulica": "Garncarska 44",
@@ -1779,7 +1779,7 @@
     "zainteresowania": ["gotowanie", "gra w piłkę nożną"]
   },
   {
-    "imię": "Agnieszka",
+    "imie": "Agnieszka",
     "nazwisko": "Adamczyk",
     "miasto": "Drzewica",
     "ulica": "Wilanowska 97",
@@ -1792,7 +1792,7 @@
     ]
   },
   {
-    "imię": "Nina",
+    "imie": "Nina",
     "nazwisko": "Ratajczak",
     "miasto": "Polska Nowa Wieś",
     "ulica": "Dobrodzieńska 90",
@@ -1804,7 +1804,7 @@
     ]
   },
   {
-    "imię": "Gerald",
+    "imie": "Gerald",
     "nazwisko": "Czekaj",
     "miasto": "Wąwolnica",
     "ulica": "Czapla 85",
@@ -1812,7 +1812,7 @@
     "zainteresowania": ["garncarstwo", "sklejanie modeli", "szycie"]
   },
   {
-    "imię": "Laurenty",
+    "imie": "Laurenty",
     "nazwisko": "Karwowski",
     "miasto": "Ostróda",
     "ulica": "Kanclerska 65",
@@ -1820,7 +1820,7 @@
     "zainteresowania": ["gra na instrumentach muzycznych", "gra w piłkę nożną"]
   },
   {
-    "imię": "Igor",
+    "imie": "Igor",
     "nazwisko": "Miśkiewicz",
     "miasto": "Chełmno",
     "ulica": "Wierzbowa 47",
@@ -1828,7 +1828,7 @@
     "zainteresowania": ["obserwacja ptaków"]
   },
   {
-    "imię": "Noemi",
+    "imie": "Noemi",
     "nazwisko": "Domański",
     "miasto": "Wolbórz",
     "ulica": "Skrzypowa 13",
@@ -1840,7 +1840,7 @@
     ]
   },
   {
-    "imię": "Herman",
+    "imie": "Herman",
     "nazwisko": "Grzybowski",
     "miasto": "Wojcieszków",
     "ulica": "Trójpole 94",
@@ -1852,7 +1852,7 @@
     ]
   },
   {
-    "imię": "Jonatan",
+    "imie": "Jonatan",
     "nazwisko": "Bagiński",
     "miasto": "Gryfice",
     "ulica": "Gładka 24",
@@ -1864,7 +1864,7 @@
     ]
   },
   {
-    "imię": "Lilia",
+    "imie": "Lilia",
     "nazwisko": "Gajewska",
     "miasto": "Gdów",
     "ulica": "Franciszka Rylla 80",
@@ -1872,7 +1872,7 @@
     "zainteresowania": ["gotowanie"]
   },
   {
-    "imię": "Maja",
+    "imie": "Maja",
     "nazwisko": "Kosińska",
     "miasto": "Pyrzyce",
     "ulica": "Zachodnia 79",
@@ -1884,7 +1884,7 @@
     ]
   },
   {
-    "imię": "Rudolf",
+    "imie": "Rudolf",
     "nazwisko": "Trzeciak",
     "miasto": "Nowy Sącz",
     "ulica": "Bławatkowa 70",
@@ -1897,7 +1897,7 @@
     ]
   },
   {
-    "imię": "Waleria",
+    "imie": "Waleria",
     "nazwisko": "Czarnecka",
     "miasto": "Śródlesie",
     "ulica": "Jana Czekanowskiego 99",
@@ -1905,7 +1905,7 @@
     "zainteresowania": ["majsterkowanie", "garncarstwo"]
   },
   {
-    "imię": "Robert",
+    "imie": "Robert",
     "nazwisko": "Sobczyk",
     "miasto": "Kazimierz Dolny",
     "ulica": "Obrzańska 53",
@@ -1913,7 +1913,7 @@
     "zainteresowania": ["szycie", "sklejanie modeli"]
   },
   {
-    "imię": "Wiktoria",
+    "imie": "Wiktoria",
     "nazwisko": "Sikorska",
     "miasto": "Nowa Wieś Ełcka",
     "ulica": "gen. Stanisława Sosabowskiego 31",
@@ -1925,7 +1925,7 @@
     ]
   },
   {
-    "imię": "Cyryl",
+    "imie": "Cyryl",
     "nazwisko": "Filipowicz",
     "miasto": "Choczewo",
     "ulica": "Żbikowa 68",
@@ -1933,7 +1933,7 @@
     "zainteresowania": ["wytwarzanie mebli"]
   },
   {
-    "imię": "Jozue",
+    "imie": "Jozue",
     "nazwisko": "Mierzejewski",
     "miasto": "Gorzów Śląski",
     "ulica": "Lechicka 56",
@@ -1941,7 +1941,7 @@
     "zainteresowania": ["czytanie", "majsterkowanie", "ogrodnictwo"]
   },
   {
-    "imię": "Izajasz",
+    "imie": "Izajasz",
     "nazwisko": "Kopczyński",
     "miasto": "Kamienica Szlachecka",
     "ulica": "Kazimierza Jarochowskiego 102",
@@ -1949,7 +1949,7 @@
     "zainteresowania": ["garncarstwo", "majsterkowanie"]
   },
   {
-    "imię": "Oskar",
+    "imie": "Oskar",
     "nazwisko": "Romanowski",
     "miasto": "Sycewice",
     "ulica": "Romana Wilkanowicza 65",
@@ -1957,7 +1957,7 @@
     "zainteresowania": ["ogrodnictwo", "jazda na rowerze", "wspinaczka górska"]
   },
   {
-    "imię": "Barbara",
+    "imie": "Barbara",
     "nazwisko": "Dudek",
     "miasto": "Czerwionka-Leszczyny",
     "ulica": "Wincentego Styczyńskiego 13",
@@ -1969,7 +1969,7 @@
     ]
   },
   {
-    "imię": "Hugo",
+    "imie": "Hugo",
     "nazwisko": "Tomczyk",
     "miasto": "Wałcz",
     "ulica": "Księżycowa 29",
@@ -1982,7 +1982,7 @@
     ]
   },
   {
-    "imię": "Abraham",
+    "imie": "Abraham",
     "nazwisko": "Matuszak",
     "miasto": "Nowy Świętów",
     "ulica": "Augusta Cieszkowskiego 84",
@@ -1994,7 +1994,7 @@
     ]
   },
   {
-    "imię": "Liliana",
+    "imie": "Liliana",
     "nazwisko": "Wilczyńska",
     "miasto": "Strzegom",
     "ulica": "Mgielna 65",
@@ -2002,7 +2002,7 @@
     "zainteresowania": ["taniec"]
   },
   {
-    "imię": "Patrycjusz",
+    "imie": "Patrycjusz",
     "nazwisko": "Czekaj",
     "miasto": "Ożarów Mazowiecki",
     "ulica": "Nad Przeźmierką 89",
@@ -2010,7 +2010,7 @@
     "zainteresowania": ["astronomia"]
   },
   {
-    "imię": "Eustracjusz",
+    "imie": "Eustracjusz",
     "nazwisko": "Skowron",
     "miasto": "Podegrodzie",
     "ulica": "Złocieniowa 41",
@@ -2018,7 +2018,7 @@
     "zainteresowania": ["kolekcjonowanie monet/znaczków", "taniec"]
   },
   {
-    "imię": "Estera",
+    "imie": "Estera",
     "nazwisko": "Lisowska",
     "miasto": "Suwałki",
     "ulica": "Leszczyńska 49",
@@ -2030,7 +2030,7 @@
     ]
   },
   {
-    "imię": "Antoni",
+    "imie": "Antoni",
     "nazwisko": "Mróz",
     "miasto": "Biskupiec",
     "ulica": "Lucyny Sieciechowiczowej 59",
@@ -2038,7 +2038,7 @@
     "zainteresowania": ["garncarstwo", "jazda na rowerze"]
   },
   {
-    "imię": "Ryszard",
+    "imie": "Ryszard",
     "nazwisko": "Adamek",
     "miasto": "Maszewo",
     "ulica": "Nieszawska 67",
@@ -2051,7 +2051,7 @@
     ]
   },
   {
-    "imię": "Ignacy",
+    "imie": "Ignacy",
     "nazwisko": "Bielski",
     "miasto": "Brześć Kujawski",
     "ulica": "Sławomira 61",
@@ -2059,7 +2059,7 @@
     "zainteresowania": ["czytanie", "wytwarzanie mebli", "gotowanie"]
   },
   {
-    "imię": "Hanna",
+    "imie": "Hanna",
     "nazwisko": "Brzozowska",
     "miasto": "Brzeziny",
     "ulica": "Macieja Rataja 18",

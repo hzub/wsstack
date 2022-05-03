@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo fetch()</title>
+  </head>
+  <body>
+    <button id="przycisk">Pobierz dane!</button>
+    <div id="ludzie"></div>
+
+    <script>
+      let elementKontener = document.querySelector("#ludzie");
+      function pobierzDane() {
+        fetch("https://www.wowapi.pl/ludzie").then(function (response) {
+          response.json().then(function (dataFromResponse) {
+            let ludzie = dataFromResponse;
+            for (let i = 0; i < ludzie.length; i++) {
+              let elementCzlowiek = document.createElement("DIV");
+              elementCzlowiek.innerHTML = ludzie[i].imie + " z miejscowosci " + ludzie[i].miasto;
+              elementKontener.appendChild(elementCzlowiek);
+            }
+          });
+        });
+      }
+
+      document.querySelector("#przycisk").addEventListener("click", pobierzDane);
+    </script>
+  </body>
+</html>

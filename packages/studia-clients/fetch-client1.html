@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo fetch()</title>
+  </head>
+  <body>
+    <button id="przycisk">Pobierz dane!</button>
+
+    <script>
+      function pobierzDane() {
+        fetch("https://www.wowapi.pl/studia/api/text").then(function (response) {
+          response.text().then(function (dataFromResponse) {
+            console.log("Dane z odpowiedzi: " + dataFromResponse);
+          });
+        });
+      }
+
+      document.querySelector("#przycisk").addEventListener("click", pobierzDane);
+    </script>
+  </body>
+</html>
